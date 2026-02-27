@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Select a country",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "5nh64K5xLEeWDY3VkNjEqA",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/5nh64K5xLEeWDY3VkNjEqA",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/PEA9DwGYdUSBmU00haz2LA",
+  "Created": "2026-02-21T21:54:30.8272056Z",
+  "Updated": "2026-02-21T21:54:30.8272056Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

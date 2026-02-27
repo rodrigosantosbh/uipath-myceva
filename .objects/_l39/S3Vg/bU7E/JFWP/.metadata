@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Port of Loading",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "JFWPTB0HxU2Qrqvg5Gl4Uw",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/JFWPTB0HxU2Qrqvg5Gl4Uw",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-02-25T14:27:11.999821Z",
+  "Updated": "2026-02-25T14:27:11.999821Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

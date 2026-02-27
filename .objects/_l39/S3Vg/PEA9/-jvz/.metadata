@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Checkbox - I don't have any Tax ID",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "-jvzx7_3TEqqZNAwpWjxrw",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/-jvzx7_3TEqqZNAwpWjxrw",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/PEA9DwGYdUSBmU00haz2LA",
+  "Created": "2026-02-21T21:54:30.9537152Z",
+  "Updated": "2026-02-21T21:54:30.9537152Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

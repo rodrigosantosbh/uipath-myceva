@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Import - sale type",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "JCPK8tJkhEONrbKp3pJE9A",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/JCPK8tJkhEONrbKp3pJE9A",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-02-25T14:27:11.5333934Z",
+  "Updated": "2026-02-25T14:27:11.5333934Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

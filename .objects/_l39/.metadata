@@ -1,0 +1,14 @@
+﻿{
+  "Name": "My Ceva ST",
+  "Type": "App",
+  "Id": "_l39nprFuU2Ri-Q_Z1Hr0g",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/_l39nprFuU2Ri-Q_Z1Hr0g",
+  "Created": "2026-02-21T14:49:21.7319347Z",
+  "Updated": "2026-02-25T13:30:28.0970296Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0EF1YhoHhU2qvfHrVHouGA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="0d34b8b4-9b7b-47a3-b14c-abca3316c27a" CvElementArea="725, 652, 83, 41" CvTextArea="743, 665, 47, 13" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="726, 653, 81, 40" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='button-registration-submit' tag='BUTTON' /&gt;" Guid="07755100-294c-4e7a-b0f6-6b58d87c6ed5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="363cca64f6990eff2347e4b69146fa4c.jpg" xmlns="">00_I5wufEZ0KRZN10Wy4tNw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

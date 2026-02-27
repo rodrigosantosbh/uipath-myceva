@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Pickup location - loading expected",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "mQEe8puOvkuj63n5nU4iow",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/mQEe8puOvkuj63n5nU4iow",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-02-25T14:27:11.9212571Z",
+  "Updated": "2026-02-25T14:27:11.9212571Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

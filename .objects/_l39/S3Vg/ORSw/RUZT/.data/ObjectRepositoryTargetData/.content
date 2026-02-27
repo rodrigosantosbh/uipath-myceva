@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OARjfeEmfE6vYkUDOeO2oA" Reference="QrbtKp_Tw0WFD8uheM-Lfw/RUZTt7aymEe1y8_gCjCSJQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/cockpit" CVScreenId="ef929946-7e40-469c-9735-a305912c3762" CvElementArea="1007, 196, 22, 22" CvType="CloseButton" DesignTimeRectangle="994, 183, 47, 47" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='wm-visual-design-shape' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' tag='DIV' /&gt;" Guid="a40f20c4-ed83-4b9e-a584-fc5b5b2a457f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="07e9077b-e86d-4ce7-9455-53cd4d814724" CvTextArea="560, 414, 306, 22" CvTextArgument="New Notification Feature" CvType="Text" DesignTimeRectangle="561, 409, 304, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='New Notification Feature' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='New Notification Feature' /&gt;" Guid="c2696dff-91a3-4d1c-8c0d-25af06b66a09" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-2" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="0efcddc569c2d4e2fa27241f1bb4a75f.jpg" xmlns="">0uDNtK5I5LkugLXJb1qUqMA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

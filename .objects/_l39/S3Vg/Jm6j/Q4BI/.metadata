@@ -1,0 +1,16 @@
+﻿{
+  "Name": "EMAIL OR USERNAME",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "Q4BIV5Euqki1TAASB2s0Ng",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/Q4BIV5Euqki1TAASB2s0Ng",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/Jm6jAfJ9QkKSx-FoXPbhJg",
+  "Created": "2026-02-21T15:02:44.5157813Z",
+  "Updated": "2026-02-21T16:59:03.5425728Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

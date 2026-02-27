@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="z7E4elFSB0aEB8SMlH_B6g" Reference="QrbtKp_Tw0WFD8uheM-Lfw/r5QrLYD0m0i_1sS-xm6jsA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts-uat.cevalogistics.com/oxauth/authorize.htm" CVScreenId="6c3cdfc2-6acc-4e56-874a-c2e2db829cd4" CvElementArea="777, 543, 325, 36" CvTextArea="913, 554, 51, 13" CvTextArgument="SIGN IN" CvType="Button" DesignTimeRectangle="779, 545, 322, 33" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='loginForm:loginButton' tag='INPUT' /&gt;" Guid="0c1c4106-820b-4dde-82c7-1d845bfac4c4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - CEVA SSO' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="26d18567f50ddd32b7435a214d696b35.jpg" xmlns="">0fGjwHx9OpkW85aSSIZzMIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

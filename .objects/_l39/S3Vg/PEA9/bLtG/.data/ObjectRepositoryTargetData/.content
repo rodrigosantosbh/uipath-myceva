@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Tv5uK64ZzUW5CHAMFvEyjg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" CvElementArea="724, 306, 271, 45" CvType="InputBox" DesignTimeRectangle="726, 308, 268, 42" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-register-first-name' tag='INPUT' type='text' class='' aaname='First name*Required field.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="08369ea2-14be-4752-946b-d628d74d8282" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" CvTextArea="725, 289, 89, 12" CvTextArgument="FIRST NAME *" CvType="Text" DesignTimeRectangle="726, 288, 268, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='FIRST NAME*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="b7c8e77d-ff16-459d-9404-d56d0523ee35" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="c84e34e1d2c62f41e218b73f53fe48ec.jpg" xmlns="">0s_VBChK_RkiebUTQZTx4XA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Export - sale type",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "quOBe_AZ6kqoUv2ZxleVWA",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/quOBe_AZ6kqoUv2ZxleVWA",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-02-25T14:27:11.7740614Z",
+  "Updated": "2026-02-25T14:27:11.7740614Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

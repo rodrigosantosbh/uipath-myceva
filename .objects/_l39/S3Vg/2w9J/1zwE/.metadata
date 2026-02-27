@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Deny",
+  "Description": "Deny cookies button.",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "1zwEfjuOb0KAoVjxFhwSOQ",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/1zwEfjuOb0KAoVjxFhwSOQ",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/2w9JYcLsH0KJIHlT17PqRg",
+  "Created": "2026-02-21T15:24:14.1390536Z",
+  "Updated": "2026-02-21T16:43:30.8282913Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

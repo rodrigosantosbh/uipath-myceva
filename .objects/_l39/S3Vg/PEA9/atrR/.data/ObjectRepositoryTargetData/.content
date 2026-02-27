@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Cisz5q41kEub9HOCwhHVMA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" CvElementArea="1032, 426, 271, 45" CvType="InputBox" DesignTimeRectangle="1034, 427, 268, 42" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-register-state' tag='INPUT' type='text' class='' aaname='State' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="a8dd0957-038e-4545-bf77-8b7734c43b08" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" CvTextArea="1032, 408, 41, 12" CvTextArgument="STATE" CvType="Text" DesignTimeRectangle="1034, 407, 268, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='LABEL' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='STATE' /&gt;" Guid="a469c517-7950-4adb-998e-7441f6e07d7b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="1e585d3d1f05eec52666626aad5be033.jpg" xmlns="">0zQKRZlkkHE2VcshHVXLMgQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

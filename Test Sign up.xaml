@@ -1,0 +1,494 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Test_Sign_up" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Test_Sign_up_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Test_Sign_up" sap:VirtualizedContainerService.HintSize="1235,5156" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Home" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,448" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="4d6d1bd7-f7ae-4b76-9ddb-6c8e1e09b612" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign up'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4d6d1bd7-f7ae-4b76-9ddb-6c8e1e09b612" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com" CVScreenId="ad508c56-d259-4459-a96b-eb8da3afb710" ContentHash="zNw2UoMAxku-TpedvF75SQ" CvElementArea="1229, 106, 86, 42" CvTextArea="1247, 119, 50, 16" CvTextArgument="Sign up" CvType="Button" DesignTimeRectangle="1230, 107, 84, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='button-hp-nav-signup' tag='BUTTON' /&gt;" Guid="4f86e598-2e78-47c5-a160-46aab8469cb6" InformativeScreenshot="116fbd9a312b9cb8d75a621332698d27.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/gu4WI6xWhEqRuIVVpadPbg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Digital Freight Forwarding Platform | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1592, -7, 1382, 736" BrowserType="Chrome" ContentHash="oxAgtSuuG0O5ngnxxKsQtg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB7SURBVDhP3VBBDoAgDOMpQvYQn8bPeIzBb2CQLNsK8+BNm/TA1pZCCP9FpZQrxTaYMu4fIeYXIQdtO5tOikWH9B3qJwwT3xpbn3FI36HewFa21fE8QVdfB0g4em9gdaaurT/XmNfVhVZrm8HQo4inp3jVvQDrcT70W7gAPi20lM4mpi0AAAAASUVORK5CYII=" InformativeScreenshot="0ca9dd74acbd94a84b579e56b42ad558.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/2w9JYcLsH0KJIHlT17PqRg" Selector="&lt;html app='chrome.exe' title='Digital Freight Forwarding Platform | myCEVA Logistics' /&gt;" Url="https://c-fast-react-app-stage-mt.kus.logistics.corp/" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Sign Up" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,4685" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="b039644f-0608-4596-8e44-a325c056b85d" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,4491" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="b039644f-0608-4596-8e44-a325c056b85d" Text="testqa2026.ceva@gmail.com" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="d094bcdc-f23c-425b-a1e3-076d7cbb6721" ContentHash="ZSXPeArgrEm-BvJujYju8A" CvElementArea="66, 336, 579, 44" CvType="InputBox" DesignTimeRectangle="68, 337, 576, 42" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='text' class='' aaname='Mail*Required field.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="7334b9d5-4570-4ca4-9432-5de2193bf63c" InformativeScreenshot="848ceb9fe092cffa37687cb07356935c.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/61nqPRwWlk6uxb4wNzpfAQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="d094bcdc-f23c-425b-a1e3-076d7cbb6721" CvTextArea="67, 318, 43, 12" CvTextArgument="MAIL *" CvType="Text" DesignTimeRectangle="68, 317, 576, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='MAIL*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="212c1bcc-167e-4c0d-866e-5264207c9302" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ocean/Air Terms &amp; Conditions'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b039644f-0608-4596-8e44-a325c056b85d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" ContentHash="_SOkpspvwUC0_EKYpytl_w" DesignTimeRectangle="68, 399, 576, 42" DesignTimeScaleFactor="1" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='check-box-registration-acceptTerms-checkbox' tag='INPUT' /&gt;" Guid="2a8b97f0-41b8-43c7-84af-15b5c9e6fade" InformativeScreenshot="593acdbe5dc30443056c6d3eb3605be1.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/TYxaXdRUikWLTCEmjiUHMQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Privacy Policy'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b039644f-0608-4596-8e44-a325c056b85d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" ContentHash="7ChjYF2_ZEyUWrI9bPE16A" DesignTimeRectangle="68, 453, 576, 43" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='myceva-app-content' tag='DIV' /&gt;" Guid="2a91e45e-a989-4193-a515-699974baefb0" InformativeScreenshot="ceff61e76f95c4306d43eec4147ab191.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/LSQUTOF3U0qbK850hp61fQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I have read and accepte…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b039644f-0608-4596-8e44-a325c056b85d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="8eb9e251-0a8c-4d70-87b1-0ac83ff7078c" ContentHash="feki3Y0MNUe46Fnd8BTnAg" CvElementArea="66, 462, 20, 20" CvTextArea="95, 463, 308, 18" CvTextArgument="I have read and accepted the privacy policy." CvType="CheckBox" DesignTimeRectangle="68, 461, 335, 21" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='check-box-registration-acceptPrivacy-checkbox' tag='INPUT' /&gt;" Guid="e1c2fe2f-ab0c-432e-bc2b-948b3f8b2fef" InformativeScreenshot="cfbe46dc82e6a9d400ada27d0f1f8f20.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/sZo0wfWbF0mZzoBPbhSAlg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset Position="TopLeft" X="9" Y="12" />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Marketing communication'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b039644f-0608-4596-8e44-a325c056b85d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" ContentHash="V5NNn796bUqcJzs3atFuNw" DesignTimeRectangle="68, 502, 576, 63" DesignTimeScaleFactor="1" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='check-box-registration-opt-in-marketing-checkbox' tag='INPUT' /&gt;" Guid="ea502534-5343-4f41-8d2f-0f9e5e7e223c" InformativeScreenshot="89f0b4257646c2e07d2c095e0bd7325e.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/o5VbPZCwDEeqq8_VcsFX_g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continue'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b039644f-0608-4596-8e44-a325c056b85d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="d094bcdc-f23c-425b-a1e3-076d7cbb6721" ContentHash="xCRPsuCLXEijdGpE8BlKNw" CvElementArea="68, 618, 92, 39" CvTextArea="85, 629, 58, 13" CvTextArgument="Continue" CvType="Button" DesignTimeRectangle="68, 617, 93, 40" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='button-registration-default-continue' tag='BUTTON' /&gt;" Guid="e4feca9d-a869-4838-a534-5c5767c1a185" InformativeScreenshot="21f1b36750f4469773c55ff939ad37ab.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/SBbDX3jhD0yGLjRSz6YjDQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Create your account | myCEVA Logistics" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,3215" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" IsDisplayNameAuto="True" ScopeGuid="495d091a-db5c-4388-9046-94e44b06b6b2" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,3021" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'First name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,297" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="495d091a-db5c-4388-9046-94e44b06b6b2" Text="Maria" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" ContentHash="Tv5uK64ZzUW5CHAMFvEyjg" CvElementArea="724, 306, 271, 45" CvType="InputBox" DesignTimeRectangle="726, 308, 268, 42" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-register-first-name' tag='INPUT' type='text' class='' aaname='First name*Required field.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="08369ea2-14be-4752-946b-d628d74d8282" InformativeScreenshot="c84e34e1d2c62f41e218b73f53fe48ec.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/bLtGnIkUS0K9LTi3OzPlqg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" CvTextArea="725, 289, 89, 12" CvTextArgument="FIRST NAME *" CvType="Text" DesignTimeRectangle="726, 288, 268, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='FIRST NAME*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="b7c8e77d-ff16-459d-9404-d56d0523ee35" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Last name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,297" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="495d091a-db5c-4388-9046-94e44b06b6b2" Text="Silva" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" ContentHash="1xBBIaCStUmNxCbLzneFzw" CvElementArea="1032, 306, 271, 45" CvType="InputBox" DesignTimeRectangle="1034, 308, 268, 42" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-register-last-name' tag='INPUT' type='text' class='' aaname='Last name*Required field.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="93b1bc88-776d-46ef-bab0-152e63b42747" InformativeScreenshot="c19ac3d00024a18e511d04ec4e111993.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/qC0gnulAhU2Jla2H734v6g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" CvTextArea="1033, 289, 85, 12" CvTextArgument="LAST NAME *" CvType="Text" DesignTimeRectangle="1034, 288, 268, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='LAST NAME*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="e8e43e5f-9acd-4146-aed9-7a64e1a27acb" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,297" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="495d091a-db5c-4388-9046-94e44b06b6b2" Text="Quot3s@chickenrun" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" ContentHash="g0YAs6C6_EiY3_eQ38zyjQ" CvElementArea="724, 388, 271, 45" CvType="InputBox" DesignTimeRectangle="726, 390, 268, 42" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-register-password-password' tag='INPUT' type='password' class='' aaname='Password*Required field.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="4d84685c-9ae0-48c3-9b7d-c83c405647c2" InformativeScreenshot="ed9f87bd82d125f6deab77c6ab6af827.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/AJ7QHIgJC0qf8VD6zN8Fqw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" CvTextArea="725, 371, 82, 12" CvTextArgument="PASSW ORD *" CvType="Text" DesignTimeRectangle="726, 370, 268, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='PASSWORD*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="30646d42-5c7d-4f56-8de1-eadb539a9bce" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password confirm'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,297" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="495d091a-db5c-4388-9046-94e44b06b6b2" Text="Quot3s@chickenrun" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" ContentHash="-cNj8OQ7EkyXdCcWCoWPGg" CvElementArea="1032, 388, 271, 45" CvType="InputBox" DesignTimeRectangle="1034, 390, 268, 42" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-register-password-passwordConfirm' tag='INPUT' type='password' class='' aaname='Password confirm*Required field.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="9f34875e-494b-4d5d-b2b7-f97e2834c176" InformativeScreenshot="b749bf5274af4645a130eee13a122247.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/kGl1TH52X02U7rAOrzhOqw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" CvTextArea="1034, 371, 144, 12" CvTextArgument="PASSWOR[ CONFIRM *" CvType="Text" DesignTimeRectangle="1034, 370, 268, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='LABEL' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='PASSWORD CONFIRM*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="8b965d70-85ce-4247-8c90-c64b89845f78" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Company name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,297" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="495d091a-db5c-4388-9046-94e44b06b6b2" Text="Ceva Brasil" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" ContentHash="PKouwjDqHkCpOAJtwNbgOA" CvElementArea="724, 580, 578, 44" CvType="InputBox" DesignTimeRectangle="726, 581, 576, 42" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-register-company' tag='INPUT' type='text' class='' aaname='Company name*Required field.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="ab10195c-793a-495e-9ffc-3d6e9a3f6e91" InformativeScreenshot="ecdd480040ff6c4ed4264ebd16867dd0.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/OVewnhXRR0iTjoR_Vf5T7w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" CvTextArea="725, 562, 117, 12" CvTextArgument="COMPANY NAME *" CvType="Text" DesignTimeRectangle="726, 561, 576, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='COMPANY NAME*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="5e26aa30-2b53-4b54-9c4a-562f9e526267" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Address'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,297" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="495d091a-db5c-4388-9046-94e44b06b6b2" Text="Fifth avenue" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" ContentHash="RhiOMBROkUuUVQnhpg0ukg" CvElementArea="724, 261, 578, 45" CvType="InputBox" DesignTimeRectangle="726, 263, 576, 42" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-register-street' tag='INPUT' type='text' class='' aaname='Address*Required field.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="e0538de7-b604-4960-9f54-0e1e369c0c96" InformativeScreenshot="fd735b924d987e54eca597d44c6139b9.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/SVHy1TfI50yFvulWpw5Vlg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" CvTextArea="724, 244, 71, 12" CvTextArgument="ADDRESS *" CvType="Text" DesignTimeRectangle="726, 243, 576, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='LABEL' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ADDRESS*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="d8b77681-9a6b-4889-9cf0-8aab64cf0da0" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'City'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,297" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="495d091a-db5c-4388-9046-94e44b06b6b2" Text="Nova York" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" ContentHash="76vfyLtChUqURVxwwJyGbA" CvElementArea="724, 426, 271, 45" CvType="InputBox" DesignTimeRectangle="726, 427, 268, 42" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-register-city' tag='INPUT' type='text' class='' aaname='City*Required field.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="2811c0a2-b9bc-4ce2-9dd5-8a8ac1d1cdcc" InformativeScreenshot="116749a159e8066387daf5c62b5a6fd0.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/mXeBA1U2Y0eJmpWNztapFw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" CvTextArea="725, 408, 40, 12" CvTextArgument="CITY *" CvType="Text" DesignTimeRectangle="726, 407, 268, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='LABEL' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='CITY*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="31ebb166-95bb-4166-bb80-ac71188d4c92" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Zip Code'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,297" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="495d091a-db5c-4388-9046-94e44b06b6b2" Text="30626002" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" ContentHash="D1hLTOR7Xk2EdEziD_g-Vg" CvElementArea="724, 508, 271, 44" CvType="InputBox" DesignTimeRectangle="726, 509, 268, 42" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-register-zip' tag='INPUT' type='text' class='' aaname='Zip Code*Required field.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="2d61137e-b836-49b4-9351-d546234ce310" InformativeScreenshot="535fa9c1f413b210ecac082822eba9e7.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/zUAIugu2z0iQVt8xER1m6w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" CvTextArea="725, 490, 71, 12" CvTextArgument="ZIP CODE *" CvType="Text" DesignTimeRectangle="726, 489, 268, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='LABEL' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ZIP CODE*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="e1c88b12-2a63-4ee4-8731-9215444e3784" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Select a country'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,297" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="495d091a-db5c-4388-9046-94e44b06b6b2" Text="United States[k(tab)]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" ContentHash="7LQjsvbTdU2FQqv71NUntw" CvElementArea="1033, 506, 270, 44" CvType="InputBox" DesignTimeRectangle="1034, 507, 268, 42" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='select-register-country' tag='BUTTON' type='button' class='sc-d449aa7e-2 bsTPRC' aaname='Select a country  ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Select a country' /&gt;" Guid="be0591e7-d94e-417f-bc9b-d7900efddbea" InformativeScreenshot="2202f874e828dc6ce5f93c2105c233f4.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/5nh64K5xLEeWDY3VkNjEqA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" CvTextArea="1033, 489, 72, 12" CvTextArgument="COUNTRY *" CvType="Text" DesignTimeRectangle="1034, 489, 268, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='select-register-country-label' tag='LABEL' type='' class='sc-d449aa7e-8 fxMkGS' aaname='Country' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='COUNTRY&amp;#xA;*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="3f3b1f71-8a76-4431-aea1-681f1b187750" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'VAT or other Tax ID Num…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="495d091a-db5c-4388-9046-94e44b06b6b2" Text="123456" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" ContentHash="1w0bLcWgZUCp8u1Q2SEvnA" CvElementArea="1032, 589, 271, 45" CvType="InputBox" DesignTimeRectangle="1034, 591, 268, 42" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-register-vat' tag='INPUT' type='text' class='' aaname='VAT or other Tax ID Number*Required field.    ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="b2866e0b-cffd-44ac-9806-03859712cd36" InformativeScreenshot="60ad062bab03fd3caa192881e26a2c02.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/p329Z6ZyoEu9f-OdJW6pyw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" CvTextArea="1032, 572, 262, 13" CvTextArgument="VAT OR OTHER TAX ID NUMBER * i" CvType="Text" DesignTimeRectangle="1034, 571, 268, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='LABEL' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='VAT OR OTHER TAX ID NUMBER*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="3fd65541-5500-473a-b488-44b7208045dd" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                </ActivityFunc>
+              </uix:NApplicationCard.OCREngine>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="1592, -7, 1382, 736" BrowserType="Chrome" ContentHash="xEgRc1GM2UawG9CNEhSj3w" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB7SURBVDhP3VBBDoAgDOMpQvYQn8bPeIzBb2CQLNsK8+BNm/TA1pZCCP9FpZQrxTaYMu4fIeYXIQdtO5tOikWH9B3qJwwT3xpbn3FI36HewFa21fE8QVdfB0g4em9gdaaurT/XmNfVhVZrm8HQo4inp3jVvQDrcT70W7gAPi20lM4mpi0AAAAASUVORK5CYII=" InformativeScreenshot="5d8a85d978e11dfadec46e1e93f3c447.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/PEA9DwGYdUSBmU00haz2LA" Selector="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" Url="https://c-fast-react-app-stage-mt.kus.logistics.corp/registration" Version="V2">
+                  <uix:TargetApp.Arguments>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.Arguments>
+                  <uix:TargetApp.WorkingDirectory>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.WorkingDirectory>
+                </uix:TargetApp>
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1592, -7, 1382, 736" BrowserType="Chrome" ContentHash="xEgRc1GM2UawG9CNEhSj3w" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB7SURBVDhP3VBBDoAgDOMpQvYQn8bPeIzBb2CQLNsK8+BNm/TA1pZCCP9FpZQrxTaYMu4fIeYXIQdtO5tOikWH9B3qJwwT3xpbn3FI36HewFa21fE8QVdfB0g4em9gdaaurT/XmNfVhVZrm8HQo4inp3jVvQDrcT70W7gAPi20lM4mpi0AAAAASUVORK5CYII=" InformativeScreenshot="5d8a85d978e11dfadec46e1e93f3c447.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/PEA9DwGYdUSBmU00haz2LA" Selector="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" Url="https://c-fast-react-app-stage-mt.kus.logistics.corp/registration" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

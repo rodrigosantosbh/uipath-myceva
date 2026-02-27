@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3PNX-tVRcU26WMM7KBeFtQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="c955e73a-0638-4380-86fe-83fffbdb58d9" CvElementArea="770, 560, 74, 29" CvType="Button" DesignTimeRectangle="452, 562, 389, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='_r_cs_' tag='DIV' /&gt;" Guid="c65bc29c-a166-498d-b954-51d7a5814fc8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4aeb2efb59a3087a854e67c398ea6644.jpg" xmlns="">04FPj_4O1akWTQAF0WriEhg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

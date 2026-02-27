@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ym2hhSmxjky1ZC2AO2Ye3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="2b6405c9-625b-4576-a8dd-38d8073708c7" CvTextArea="722, 222, 173, 22" CvTextArgument="PERSONAL INFO" CvType="Text" DesignTimeRectangle="722, 219, 576, 29" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H2' /&gt;" Guid="a6a7757d-0cba-4c0d-9a69-ebb3203de0b3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ab217c41d85643e5ae83fe63d1ed263e.jpg" xmlns="">0YItmkd4z-0yW8_0m7uxvRQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

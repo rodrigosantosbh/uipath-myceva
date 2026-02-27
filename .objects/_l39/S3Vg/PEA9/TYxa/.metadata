@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Ocean/Air Terms & Conditions",
+  "Description": "Ocean and Air terms & Conditions.",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "TYxaXdRUikWLTCEmjiUHMQ",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/TYxaXdRUikWLTCEmjiUHMQ",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/PEA9DwGYdUSBmU00haz2LA",
+  "Created": "2026-02-21T21:03:09.9612933Z",
+  "Updated": "2026-02-21T21:05:55.5903349Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

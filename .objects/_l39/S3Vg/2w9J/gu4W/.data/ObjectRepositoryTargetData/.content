@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zNw2UoMAxku-TpedvF75SQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myceva-tracking-app-stage.cevalogistics.com" CVScreenId="ad508c56-d259-4459-a96b-eb8da3afb710" CvElementArea="1229, 106, 86, 42" CvTextArea="1247, 119, 50, 16" CvTextArgument="Sign up" CvType="Button" DesignTimeRectangle="1230, 107, 84, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='button-hp-nav-signup' tag='BUTTON' /&gt;" Guid="4f86e598-2e78-47c5-a160-46aab8469cb6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Digital Freight Forwarding Platform | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="116fbd9a312b9cb8d75a621332698d27.jpg" xmlns="">0Dz_Uv0DmR0WKgk8eaXe7tw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

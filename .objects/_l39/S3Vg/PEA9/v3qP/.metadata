@@ -1,0 +1,13 @@
+﻿{
+  "Name": "What is your usual role?",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "v3qPWOquAUibxeRsVMp9sg",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/v3qPWOquAUibxeRsVMp9sg",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/PEA9DwGYdUSBmU00haz2LA",
+  "Created": "2026-02-21T21:54:31.0631808Z",
+  "Updated": "2026-02-21T21:54:31.0631808Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

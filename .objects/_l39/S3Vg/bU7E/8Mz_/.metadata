@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Port/CFS - loading",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "8Mz_HQyHgkWm0hCAHgXNUg",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/8Mz_HQyHgkWm0hCAHgXNUg",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-02-25T14:27:11.8437064Z",
+  "Updated": "2026-02-25T14:28:34.8558084Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

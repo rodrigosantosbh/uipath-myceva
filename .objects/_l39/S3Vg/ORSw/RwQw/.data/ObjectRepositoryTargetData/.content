@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4-EK3Pl0r0GtM-n8dEOYdA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/criteria" CVScreenId="5d4d2998-9c7b-418f-a140-866b71bed2e2" CvTextArea="497, 579, 137, 15" CvTextArgument="Ocean Instant quote" CvType="Text" DesignTimeRectangle="425, 562, 250, 48" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" Guid="3ebe2d94-9048-425e-898b-ea62c71d4be1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Quote Criteria | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="907db4d5d25108be7254a76c2bbabc26.jpg" xmlns="">09NcMg_0PJUeJhx74Q2DM7g</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

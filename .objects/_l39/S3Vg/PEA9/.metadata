@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Sign Up",
+  "Description": "Sign up screen.",
+  "Type": "Screen",
+  "Id": "PEA9DwGYdUSBmU00haz2LA",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/PEA9DwGYdUSBmU00haz2LA",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/S3VgMFeGG0maudmpkqeqsw",
+  "Created": "2026-02-21T20:59:08.9696934Z",
+  "Updated": "2026-02-21T21:23:23.9334104Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "Name": "Myceva automation testing",
+  "ProjectType": "Tests",
+  "Description": "Projeto de Automatização de Teste",
+  "MainFile": "Main.xaml"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="feki3Y0MNUe46Fnd8BTnAg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/sZo0wfWbF0mZzoBPbhSAlg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="8eb9e251-0a8c-4d70-87b1-0ac83ff7078c" CvElementArea="66, 462, 20, 20" CvTextArea="95, 463, 308, 18" CvTextArgument="I have read and accepted the privacy policy." CvType="CheckBox" DesignTimeRectangle="68, 461, 335, 21" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='check-box-registration-acceptPrivacy-checkbox' tag='INPUT' /&gt;" Guid="e1c2fe2f-ab0c-432e-bc2b-948b3f8b2fef" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopLeft" X="9" Y="12" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="cfbe46dc82e6a9d400ada27d0f1f8f20.jpg" xmlns="">0N-Sinw6qXUqK7vV4X5WBUw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

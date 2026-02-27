@@ -1,0 +1,248 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Success_Login" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Success_Login_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Success_Login" sap:VirtualizedContainerService.HintSize="1235,1617" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="variable1" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" ContinueOnError="False" DisplayName="Home" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,520" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" IsIncognito="False" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="d4e57853-abad-4379-8d5b-a00360c56322" UserDataFolderMode="[UiPath.UIAutomationNext.Enums.BrowserUserDataFolderMode.CustomFolder]" Version="V2" WebDriverMode="[UiPath.UIAutomationNext.Enums.NWebDriverMode.Disabled]" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,317" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d4e57853-abad-4379-8d5b-a00360c56322" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp" CVScreenId="5d6da0e8-1b62-47f1-a923-474da3e8051e" ContentHash="XyvI-ocuHUG4HH5mwitQkQ" CvElementArea="1136, 106, 80, 43" CvTextArea="1155, 119, 41, 16" CvTextArgument="Log In" CvType="Button" DesignTimeRectangle="1138, 107, 76, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='button-hp-nav-login' tag='BUTTON' /&gt;" Guid="a189fc24-33ca-43b9-8e39-35ba2561c622" InformativeScreenshot="ccccb312b9238f62e36f8ae0ff22a536.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/q7Ly_p_G9EqO7Bac8UzaSQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Digital Freight Forwarding Platform | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="accounts-uat.cevalogistics.com/oxauth/authorize.htm" CVScreenId="6c3cdfc2-6acc-4e56-874a-c2e2db829cd4" ContentHash="TTNgqqKqZkaRaPdpu7g5oQ" CvTextArea="762, 277, 208, 27" CvTextArgument="SIGN IN TO SSO" CvType="Text" DesignTimeRectangle="764, 275, 352, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='ssologinpagetitle' tag='H1' /&gt;" Guid="872a131e-13db-47b2-81ae-669089766319" InformativeScreenshot="ed1fc0d4ae9caeca64b75c25e36f8540.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/S_IsDg0xp0eJOSwft0NbvQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - CEVA SSO' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1592, -7, 1382, 736" BrowserType="Chrome" ContentHash="oxAgtSuuG0O5ngnxxKsQtg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB7SURBVDhP3VBBDoAgDOMpQvYQn8bPeIzBb2CQLNsK8+BNm/TA1pZCCP9FpZQrxTaYMu4fIeYXIQdtO5tOikWH9B3qJwwT3xpbn3FI36HewFa21fE8QVdfB0g4em9gdaaurT/XmNfVhVZrm8HQo4inp3jVvQDrcT70W7gAPi20lM4mpi0AAAAASUVORK5CYII=" InformativeScreenshot="0ca9dd74acbd94a84b579e56b42ad558.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/2w9JYcLsH0KJIHlT17PqRg" Selector="&lt;html app='chrome.exe' title='Digital Freight Forwarding Platform | myCEVA Logistics' /&gt;" Url="https://c-fast-react-app-stage-mt.kus.logistics.corp/" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" ContinueOnError="False" DisplayName="Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1074" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" IsIncognito="False" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="c9cd3321-de2d-48d7-b951-4db598f27909" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,880" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'EMAIL OR USERNAME'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="c9cd3321-de2d-48d7-b951-4db598f27909" Text="babs.quotes1@gmail.com" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="accounts-uat.cevalogistics.com/oxauth/authorize.htm" CVScreenId="6c3cdfc2-6acc-4e56-874a-c2e2db829cd4" ContentHash="DMXq2XWIIEetCkQX1_xbmw" CvElementArea="762, 354, 354, 42" CvType="InputBox" DesignTimeRectangle="764, 355, 352, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='loginForm:username' tag='INPUT' type='text' class='form-control' aaname='EMAIL OR USERNAME' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ad8f3524-298d-4bb8-8fee-6ebde0a38c74" InformativeScreenshot="9394598ff8e0963a3c4cd34ac8ceff76.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/Q4BIV5Euqki1TAASB2s0Ng" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - CEVA SSO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="6c3cdfc2-6acc-4e56-874a-c2e2db829cd4" CvTextArea="763, 331, 124, 12" CvTextArgument="EMAIL OR USERNAME" CvType="Text" DesignTimeRectangle="764, 329, 352, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='loginForm:emaillabel' tag='LABEL' type='' class='col-sm-12 control-label' aaname='EMAIL OR USERNAME' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='EMAIL OR USERNAME' /&gt;" Guid="447fd64f-03d4-4f16-9205-91394d195e39" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'PASSWORD'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="c9cd3321-de2d-48d7-b951-4db598f27909" Text="Quot3s@chickenrun" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="accounts-uat.cevalogistics.com/oxauth/authorize.htm" CVScreenId="6c3cdfc2-6acc-4e56-874a-c2e2db829cd4" ContentHash="-oALZ132ckGKh27O4QBt3g" CvElementArea="763, 436, 353, 42" CvType="InputBox" DesignTimeRectangle="764, 437, 352, 40" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='loginForm:password' tag='INPUT' type='password' class='form-control' aaname='Password' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b40aaaf6-52c8-42f6-abe1-c97d25f9d4eb" InformativeScreenshot="7e6316c744e2f0fccbb6e9091773351f.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/2Y3fSW1jsEi_GSPBCdWrrQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - CEVA SSO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="6c3cdfc2-6acc-4e56-874a-c2e2db829cd4" CvTextArea="763, 413, 66, 12" CvTextArgument="PASSWORD" CvType="Text" DesignTimeRectangle="764, 411, 352, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='loginForm:passwordlabel' tag='LABEL' type='' class='col-sm-12 control-label' aaname='Password' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='PASSWORD' /&gt;" Guid="4394e101-27b5-4653-8ad8-5da930fc0142" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SIGN IN'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c9cd3321-de2d-48d7-b951-4db598f27909" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="accounts-uat.cevalogistics.com/oxauth/authorize.htm" CVScreenId="6c3cdfc2-6acc-4e56-874a-c2e2db829cd4" ContentHash="z7E4elFSB0aEB8SMlH_B6g" CvElementArea="777, 543, 325, 36" CvTextArea="913, 554, 51, 13" CvTextArgument="SIGN IN" CvType="Button" DesignTimeRectangle="779, 545, 322, 33" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='loginForm:loginButton' tag='INPUT' /&gt;" Guid="0c1c4106-820b-4dde-82c7-1d845bfac4c4" InformativeScreenshot="26d18567f50ddd32b7435a214d696b35.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/r5QrLYD0m0i_1sS-xm6jsA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - CEVA SSO' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'New Notification Feature'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,134" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="c9cd3321-de2d-48d7-b951-4db598f27909" Version="V5">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/cockpit" CVScreenId="dc91cb0e-2a6b-4cf7-9b8d-4058473ae158" ContentHash="x3SW9KLfS0quQtTalfmYPw" CvType="AnyWordGroup" DesignTimeRectangle="561, 409, 304, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="45265412-efcf-4541-a0e9-717ace50e427" InformativeScreenshot="1e41a000237622fa115a1c29f13c3701.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/a3146r2_10-QbZ7Ipidydw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1592, -7, 1382, 736" Arguments="[&quot;C:\Temp\UiPathProfile_&quot; + Now.Ticks.ToString()]" BrowserType="Chrome" ContentHash="4OM57JZeuE2HlNqd__M0og" IconBase64="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" InformativeScreenshot="0ad78805f73e6e488011464c7ba9cf7e.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/Jm6jAfJ9QkKSx-FoXPbhJg" Selector="&lt;html app='chrome.exe' title='Login - CEVA SSO' /&gt;" Url="https://accounts-uat.cevalogistics.com/oxauth/authorize.htm?scope=openid+email+user_name&amp;acr_values=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Aac%3Aclasses%3APasswordProtectedTransport&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Faccounts-uat.cevalogistics.com%2Fidp%2FAuthn%2FoxAuth&amp;state=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJzdGF0ZSI6Ilh4UGtKYU5xUTkiLCJjb252ZXJzYXRpb24iOiJlMXMxIn0.&amp;nonce=OIS4ekrHGx&amp;client_id=1101.6543b57b-8e43-471e-babb-6fa3fd0edb28" Version="V2" WorkingDirectory="--incognito --user-data-dir=" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

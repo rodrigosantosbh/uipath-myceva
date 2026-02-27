@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SvmfthbUjkm0aMYvUIJTQA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/cockpit" CVScreenId="0412c360-4a87-4924-9cc2-851237c4b309" CvElementArea="1104, 496, 163, 43" CvType="Button" DesignTimeRectangle="1106, 498, 160, 40" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='button-cockpit-quote-link' tag='BUTTON' /&gt;" Guid="15dec40e-571b-4327-8338-b7fb258a1e44" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="02755a5ebe542cfdf7592d52f41b7673.jpg" xmlns="">05Kqbonkysk2cAfX54H3rfA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

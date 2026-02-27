@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="oxAgtSuuG0O5ngnxxKsQtg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/2w9JYcLsH0KJIHlT17PqRg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="1592, -7, 1382, 736" BrowserType="Chrome" ContentHash="c-GUjSZ02E-1dU7JCA0w9g" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB7SURBVDhP3VBBDoAgDOMpQvYQn8bPeIzBb2CQLNsK8+BNm/TA1pZCCP9FpZQrxTaYMu4fIeYXIQdtO5tOikWH9B3qJwwT3xpbn3FI36HewFa21fE8QVdfB0g4em9gdaaurT/XmNfVhVZrm8HQo4inp3jVvQDrcT70W7gAPi20lM4mpi0AAAAASUVORK5CYII=" Reference="QrbtKp_Tw0WFD8uheM-Lfw/2w9JYcLsH0KJIHlT17PqRg" Selector="&lt;html app='chrome.exe' title='Digital Freight Forwarding Platform | myCEVA Logistics' /&gt;" Url="https://c-fast-react-app-stage-mt.kus.logistics.corp/" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="0ca9dd74acbd94a84b579e56b42ad558.jpg" xmlns="">0_wt0rdkaE0aitAYquKqfvA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

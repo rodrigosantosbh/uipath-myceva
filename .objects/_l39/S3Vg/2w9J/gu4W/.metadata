@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Sign up",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "gu4WI6xWhEqRuIVVpadPbg",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/gu4WI6xWhEqRuIVVpadPbg",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/2w9JYcLsH0KJIHlT17PqRg",
+  "Created": "2026-02-21T14:55:03.5927901Z",
+  "Updated": "2026-02-21T14:55:29.4976649Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

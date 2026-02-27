@@ -1,0 +1,13 @@
+﻿{
+  "Name": "LCL - Less than a Container Load",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "ikgW44ZTeUSaXchm-bHAfg",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/ikgW44ZTeUSaXchm-bHAfg",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-02-25T14:27:12.389338Z",
+  "Updated": "2026-02-25T14:27:12.389338Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

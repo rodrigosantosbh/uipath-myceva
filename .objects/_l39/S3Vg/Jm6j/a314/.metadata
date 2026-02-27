@@ -1,0 +1,14 @@
+﻿{
+  "Name": "New Notification Feature",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "a3146r2_10-QbZ7Ipidydw",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/a3146r2_10-QbZ7Ipidydw",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/Jm6jAfJ9QkKSx-FoXPbhJg",
+  "Created": "2026-02-21T17:12:02.106116Z",
+  "Updated": "2026-02-21T17:12:02.106116Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

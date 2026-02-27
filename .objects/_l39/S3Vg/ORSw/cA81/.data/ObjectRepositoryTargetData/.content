@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gFifZbiirUia-7GivCncfw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="70381a1f-7db7-49ab-be0e-f4c5375916e3" CvTextArea="221, 118, 57, 18" CvTextArgument="Cockpit" CvType="Text" DesignTimeRectangle="223, 95, 54, 62" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Cockpit' tag='A' /&gt;" Guid="5c63e61e-97aa-46f5-b8d5-10c69df268b2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <imageRef attrName="InformativeScreenshot" originalValue="6f2ebe74e1409d71964f3aa9f9008b51.jpg" xmlns="">0Hm7vz_8tC0CHAxViIJNRQg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

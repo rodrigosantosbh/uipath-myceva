@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Cockpit/Home page",
+  "Type": "Screen",
+  "Id": "ORSwrKXBZkSfjOwen0E77g",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/ORSwrKXBZkSfjOwen0E77g",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/S3VgMFeGG0maudmpkqeqsw",
+  "Created": "2026-02-25T13:19:37.9058132Z",
+  "Updated": "2026-02-25T13:43:12.8135965Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

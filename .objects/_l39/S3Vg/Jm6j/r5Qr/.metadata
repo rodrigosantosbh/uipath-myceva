@@ -1,0 +1,16 @@
+﻿{
+  "Name": "SIGN IN",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "r5QrLYD0m0i_1sS-xm6jsA",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/r5QrLYD0m0i_1sS-xm6jsA",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/Jm6jAfJ9QkKSx-FoXPbhJg",
+  "Created": "2026-02-21T15:04:03.2174184Z",
+  "Updated": "2026-02-21T16:59:20.910687Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

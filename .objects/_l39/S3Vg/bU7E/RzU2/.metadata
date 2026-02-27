@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Expected departure date",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "RzU2WldenEeijJYTcjc0cg",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/RzU2WldenEeijJYTcjc0cg",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-02-25T14:27:12.541232Z",
+  "Updated": "2026-02-25T14:27:12.541232Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

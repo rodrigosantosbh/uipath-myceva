@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Ocean Instant quote",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "RwQwznx_c02hlCmvx2O57A",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/RwQwznx_c02hlCmvx2O57A",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/ORSwrKXBZkSfjOwen0E77g",
+  "Created": "2026-02-25T13:43:12.9629877Z",
+  "Updated": "2026-02-25T13:43:12.9629877Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Shanghai, Shanghai (CNS…(1)",
+  "Type": "Element",
+  "Id": "KDzDMvfcm0WjBkXWVcCzMA",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/KDzDMvfcm0WjBkXWVcCzMA",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-02-25T15:06:45.0479838Z",
+  "Updated": "2026-02-25T15:06:45.0479838Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

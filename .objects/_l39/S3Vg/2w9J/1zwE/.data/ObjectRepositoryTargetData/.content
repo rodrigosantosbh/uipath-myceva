@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-yI0FbT2uEW6hu-ePE1C6A" Reference="QrbtKp_Tw0WFD8uheM-Lfw/1zwEfjuOb0KAoVjxFhwSOQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp" CVScreenId="62c061af-3f49-4941-a17c-f4c1240c3bab" CvElementArea="1057, 572, 287, 53" CvTextArea="1182, 591, 38, 17" CvTextArgument="Deny" CvType="Button" DesignTimeRectangle="1058, 572, 286, 52" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='CybotCookiebotDialogBodyButtonDecline' tag='BUTTON' /&gt;" Guid="24413b25-f24c-4888-9eea-bc8a864620da" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Digital Freight Forwarding Platform | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="618e1b53a35bba755ad5a1f1a582d459.jpg" xmlns="">0tr1fwL8pC0iNR9KJVutQMw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

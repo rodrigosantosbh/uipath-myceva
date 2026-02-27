@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Which type of product l…",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "T155WRCooUWz8OKvqcQnbA",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/T155WRCooUWz8OKvqcQnbA",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/PEA9DwGYdUSBmU00haz2LA",
+  "Created": "2026-02-21T21:54:31.0074679Z",
+  "Updated": "2026-02-21T21:54:31.0074679Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

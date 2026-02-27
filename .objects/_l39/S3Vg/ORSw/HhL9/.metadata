@@ -1,0 +1,14 @@
+﻿{
+  "Name": "New quote",
+  "Description": "New quote button from cockpit page.",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "HhL9WGTVFU2qWC4TBK7phw",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/HhL9WGTVFU2qWC4TBK7phw",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/ORSwrKXBZkSfjOwen0E77g",
+  "Created": "2026-02-25T13:39:48.0072243Z",
+  "Updated": "2026-02-25T13:39:48.0072243Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

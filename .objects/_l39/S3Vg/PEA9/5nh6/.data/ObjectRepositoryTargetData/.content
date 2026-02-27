@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7LQjsvbTdU2FQqv71NUntw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" CvElementArea="1033, 506, 270, 44" CvType="InputBox" DesignTimeRectangle="1034, 507, 268, 42" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='select-register-country' tag='BUTTON' type='button' class='sc-d449aa7e-2 bsTPRC' aaname='Select a country  ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Select a country' /&gt;" Guid="be0591e7-d94e-417f-bc9b-d7900efddbea" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0627ad8d-0dcd-4007-bf1c-0e52c47f0a75" CvTextArea="1033, 489, 72, 12" CvTextArgument="COUNTRY *" CvType="Text" DesignTimeRectangle="1034, 489, 268, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='select-register-country-label' tag='LABEL' type='' class='sc-d449aa7e-8 fxMkGS' aaname='Country' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='COUNTRY&amp;#xA;*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="3f3b1f71-8a76-4431-aea1-681f1b187750" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="2202f874e828dc6ce5f93c2105c233f4.jpg" xmlns="">0XqV-hHd42Ua3-8DcsMaTMQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

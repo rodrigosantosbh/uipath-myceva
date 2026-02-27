@@ -1,0 +1,13 @@
+﻿{
+  "Name": "FCL - Full Container Load",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "l3eF-Wu7jkewW5TF5h78rQ",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/l3eF-Wu7jkewW5TF5h78rQ",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-02-25T14:27:12.3039627Z",
+  "Updated": "2026-02-25T14:27:12.3039627Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TTNgqqKqZkaRaPdpu7g5oQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts-uat.cevalogistics.com/oxauth/authorize.htm" CVScreenId="6c3cdfc2-6acc-4e56-874a-c2e2db829cd4" CvTextArea="762, 277, 208, 27" CvTextArgument="SIGN IN TO SSO" CvType="Text" DesignTimeRectangle="764, 275, 352, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='ssologinpagetitle' tag='H1' /&gt;" Guid="872a131e-13db-47b2-81ae-669089766319" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - CEVA SSO' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ed1fc0d4ae9caeca64b75c25e36f8540.jpg" xmlns="">0I1ydftFSAE6FycuqL2y0iQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Close popup",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "RUZTt7aymEe1y8_gCjCSJQ",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/RUZTt7aymEe1y8_gCjCSJQ",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/ORSwrKXBZkSfjOwen0E77g",
+  "Created": "2026-02-25T14:15:11.3956711Z",
+  "Updated": "2026-02-25T14:20:15.5090542Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

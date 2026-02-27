@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="g0YAs6C6_EiY3_eQ38zyjQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/registration" CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" CvElementArea="724, 388, 271, 45" CvType="InputBox" DesignTimeRectangle="726, 390, 268, 42" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-register-password-password' tag='INPUT' type='password' class='' aaname='Password*Required field.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="4d84685c-9ae0-48c3-9b7d-c83c405647c2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Create your account | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="df3ae66f-ad7b-41e4-94c3-c357239a0cc7" CvTextArea="725, 371, 82, 12" CvTextArgument="PASSW ORD *" CvType="Text" DesignTimeRectangle="726, 370, 268, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='PASSWORD*&amp;#xA;REQUIRED FIELD.' /&gt;" Guid="30646d42-5c7d-4f56-8de1-eadb539a9bce" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="ed9f87bd82d125f6deab77c6ab6af827.jpg" xmlns="">0_h0Y07m980G8ZOnLiU37xQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

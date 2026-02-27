@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-oALZ132ckGKh27O4QBt3g" Reference="QrbtKp_Tw0WFD8uheM-Lfw/2Y3fSW1jsEi_GSPBCdWrrQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts-uat.cevalogistics.com/oxauth/authorize.htm" CVScreenId="6c3cdfc2-6acc-4e56-874a-c2e2db829cd4" CvElementArea="763, 436, 353, 42" CvType="InputBox" DesignTimeRectangle="764, 437, 352, 40" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='loginForm:password' tag='INPUT' type='password' class='form-control' aaname='Password' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b40aaaf6-52c8-42f6-abe1-c97d25f9d4eb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - CEVA SSO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6c3cdfc2-6acc-4e56-874a-c2e2db829cd4" CvTextArea="763, 413, 66, 12" CvTextArgument="PASSWORD" CvType="Text" DesignTimeRectangle="764, 411, 352, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='loginForm:passwordlabel' tag='LABEL' type='' class='col-sm-12 control-label' aaname='Password' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='PASSWORD' /&gt;" Guid="4394e101-27b5-4653-8ad8-5da930fc0142" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7e6316c744e2f0fccbb6e9091773351f.jpg" xmlns="">07NVhBt0KvkC1CGH7ZIy-8A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

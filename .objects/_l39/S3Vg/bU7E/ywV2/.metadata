@@ -1,0 +1,13 @@
+﻿{
+  "Name": "LB / IN / Fº",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "ywV2S9RfGke2S2rfKIGFyQ",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/ywV2S9RfGke2S2rfKIGFyQ",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-02-25T14:27:12.6368697Z",
+  "Updated": "2026-02-25T14:27:12.6368697Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

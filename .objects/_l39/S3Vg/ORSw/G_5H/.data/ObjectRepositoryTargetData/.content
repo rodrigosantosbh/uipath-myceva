@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QiPdG7hz5kKjYqjtxTKoGg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/cockpit" CVScreenId="fb84caa9-93f0-420f-b86c-f5d380dbcbbe" CvElementArea="352, 117, 21, 19" CvTextArea="303, 118, 44, 17" CvTextArgument="Quote" CvType="ArrowButton" DesignTimeRectangle="304, 95, 65, 62" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='' aaname='Quote  ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Quote' /&gt;" Guid="da996df5-d3ab-4cdf-a395-bb3c1f6bd23f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fb84caa9-93f0-420f-b86c-f5d380dbcbbe" CvTextArea="303, 118, 44, 17" CvTextArgument="Quote" CvType="Text" DesignTimeRectangle="304, 117, 42, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='' aaname='Quote' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Quote' /&gt;" Guid="a15d74c6-35df-401b-8ffd-65be1898dac6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="98aa30f526751bfe7397164bc3b9cd5c.jpg" xmlns="">00vR45q9f6Ee0PhRM1N3iEA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

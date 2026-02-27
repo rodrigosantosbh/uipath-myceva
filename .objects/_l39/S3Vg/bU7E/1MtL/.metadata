@@ -1,0 +1,13 @@
+﻿{
+  "Name": "KG / CM / ºC",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "1MtLKcwIE0unkC7f7fOD4A",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/1MtLKcwIE0unkC7f7fOD4A",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-02-25T14:27:12.7146883Z",
+  "Updated": "2026-02-25T14:27:12.7146883Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

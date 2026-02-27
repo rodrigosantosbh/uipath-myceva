@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Incoterm",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "bVZWrOp-40O1gusDWvGrsA",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/bVZWrOp-40O1gusDWvGrsA",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-02-25T14:27:12.4660384Z",
+  "Updated": "2026-02-25T14:27:12.4660384Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

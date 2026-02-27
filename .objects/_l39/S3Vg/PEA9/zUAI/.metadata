@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Zip Code",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "zUAIugu2z0iQVt8xER1m6w",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/zUAIugu2z0iQVt8xER1m6w",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/PEA9DwGYdUSBmU00haz2LA",
+  "Created": "2026-02-21T21:54:30.7797766Z",
+  "Updated": "2026-02-21T21:54:30.7797766Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

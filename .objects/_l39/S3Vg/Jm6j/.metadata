@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Login",
+  "Description": "Login page.",
+  "Type": "Screen",
+  "Id": "Jm6jAfJ9QkKSx-FoXPbhJg",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/Jm6jAfJ9QkKSx-FoXPbhJg",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/S3VgMFeGG0maudmpkqeqsw",
+  "Created": "2026-02-21T15:02:13.1395795Z",
+  "Updated": "2026-02-21T17:07:05.5399591Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

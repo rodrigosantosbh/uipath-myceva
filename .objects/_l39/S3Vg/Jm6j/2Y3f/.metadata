@@ -1,0 +1,16 @@
+﻿{
+  "Name": "PASSWORD",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "2Y3fSW1jsEi_GSPBCdWrrQ",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/2Y3fSW1jsEi_GSPBCdWrrQ",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/Jm6jAfJ9QkKSx-FoXPbhJg",
+  "Created": "2026-02-21T15:03:32.0234195Z",
+  "Updated": "2026-02-21T16:59:01.3459049Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
