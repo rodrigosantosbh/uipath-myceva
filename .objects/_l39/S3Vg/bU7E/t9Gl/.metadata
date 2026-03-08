@@ -1,0 +1,14 @@
+﻿{
+  "Name": "20 FT - container type",
+  "Description": "container type",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "t9Glq0QbIkyY-qzNk3cJRg",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/t9Glq0QbIkyY-qzNk3cJRg",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-03-08T17:55:44.9838995Z",
+  "Updated": "2026-03-08T17:55:44.9838995Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

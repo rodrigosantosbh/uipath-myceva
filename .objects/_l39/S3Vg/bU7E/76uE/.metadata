@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Commodity category*",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "76uErrZpPEqVWo44-EITjA",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/76uErrZpPEqVWo44-EITjA",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-03-08T17:55:45.2156682Z",
+  "Updated": "2026-03-08T17:55:45.2156682Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

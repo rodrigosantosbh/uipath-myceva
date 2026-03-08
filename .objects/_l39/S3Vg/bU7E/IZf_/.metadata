@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Total cargo value*",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "IZf_SP3gUEmfSVehbjoFJA",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/IZf_SP3gUEmfSVehbjoFJA",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-03-08T17:55:45.4726704Z",
+  "Updated": "2026-03-08T17:55:45.4726704Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

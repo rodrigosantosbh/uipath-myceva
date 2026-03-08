@@ -1,0 +1,13 @@
+﻿{
+  "Name": "40 HC - container type",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "fvCgkm2USEWaVzU8QnHjHQ",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/fvCgkm2USEWaVzU8QnHjHQ",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-03-08T17:55:45.0889111Z",
+  "Updated": "2026-03-08T17:55:45.0889111Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

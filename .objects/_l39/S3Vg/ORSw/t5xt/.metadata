@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Close advising",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "t5xtq2JtlU67iOG7dMiwxw",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/t5xtq2JtlU67iOG7dMiwxw",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/ORSwrKXBZkSfjOwen0E77g",
+  "Created": "2026-03-08T17:12:37.6535779Z",
+  "Updated": "2026-03-08T17:12:37.6535779Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

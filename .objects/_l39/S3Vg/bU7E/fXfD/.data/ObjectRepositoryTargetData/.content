@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="L8MUPLQ62UepHrsBmVPJyA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="d6f592dc-1da1-47da-b6b7-a79644fbbf8d" DesignTimeRectangle="458, 510, 1019, 56" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='radix-_r_61_' tag='DIV' /&gt;" Guid="1526193e-f1ed-4f77-b0ad-63a585adb722" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="Selector" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="6835c3602bd796ea4bdafb96d203e6bd.jpg" xmlns="">0Xmv1Bd2O5kejPKNch3di2A</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

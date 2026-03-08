@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="58sXJBUDO0aUb5oDsxh8Kw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myceva-tracking-app-stage.cevalogistics.com/quote/criteria" CVScreenId="afbae969-e62e-4268-966c-8ea9580942c8" CvElementArea="635, 581, 114, 43" CvTextArea="670, 594, 42, 15" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="637, 582, 109, 40" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='wm-visual-design-shape' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' tag='DIV' /&gt;" Guid="f6abcf5a-4efe-46a2-b38b-751cfe11aad1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Quote Criteria | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="c78b5cb4798d8cacc87fddeefaa5cda3.jpg" xmlns="">0wxzI3sP5DkO0-3FH5HFArQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Quote - Final details",
+  "Type": "Screen",
+  "Id": "Sf8MEha0-U-IIbXFCBHi7g",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/Sf8MEha0-U-IIbXFCBHi7g",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/S3VgMFeGG0maudmpkqeqsw",
+  "Created": "2026-03-08T18:32:02.0713463Z",
+  "Updated": "2026-03-08T18:32:12.6771818Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

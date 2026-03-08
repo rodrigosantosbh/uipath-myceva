@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vXm8Xq8hvEe1LwpL4ytUrg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" DesignTimeRectangle="600, 353, 79, 32" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='radix-_r_61_' tag='LABEL' type='' class='sc-3721dfd1-4 gyZWuH' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='20&amp;apos; FT' /&gt;" Guid="847ccaac-dd32-4b20-9079-d890baf49091" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="629, 360, 33, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='20&amp;apos; FT' parentid='radix-_r_61_' tag='SPAN' type='' class='sc-a1e97d09-1 nZMJo' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='20&amp;apos; FT' /&gt;" Guid="abc1e9a8-b58a-4e1f-8966-5264469555cd" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="4b5cc652220e45619b525de134d247af.jpg" xmlns="">0jiyqVxriH0KI3F6EsgmN4A</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

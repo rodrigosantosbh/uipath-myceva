@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Kc0PFX8J-kKiRohDZ6XTCA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="5dd84935-f494-4df7-a3ea-8695a51a8b29" CvElementArea="1406, 616, 114, 43" CvTextArea="1430, 629, 67, 16" CvTextArgument="Continue" CvType="Button" DesignTimeRectangle="1408, 618, 111, 40" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='ocean-continue-button' tag='BUTTON' /&gt;" Guid="2f9bf917-1b9a-4ac1-82c7-16bd091b08a6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="34dbf7bf80bd6142440a17b609356ca7.jpg" xmlns="">0Re7x-AsdkE-HXuNlDjPdYw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

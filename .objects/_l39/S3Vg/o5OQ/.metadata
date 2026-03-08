@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Quote - Success",
+  "Type": "Screen",
+  "Id": "o5OQvSoYyEuGn-fcktmdXg",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/o5OQvSoYyEuGn-fcktmdXg",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/S3VgMFeGG0maudmpkqeqsw",
+  "Created": "2026-03-08T19:37:29.9357466Z",
+  "Updated": "2026-03-08T19:37:39.8139768Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

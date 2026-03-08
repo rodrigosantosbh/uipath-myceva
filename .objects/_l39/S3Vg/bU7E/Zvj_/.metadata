@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Temperature controlled",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "Zvj_ABahFU6ukbbcRx_LKQ",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/Zvj_ABahFU6ukbbcRx_LKQ",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-03-08T17:55:45.3921864Z",
+  "Updated": "2026-03-08T17:55:45.3921864Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Currency",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "ZLXNXGRGM0GIZ5PPtvPeDw",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/ZLXNXGRGM0GIZ5PPtvPeDw",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-03-08T17:55:45.5122017Z",
+  "Updated": "2026-03-08T17:55:45.5122017Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

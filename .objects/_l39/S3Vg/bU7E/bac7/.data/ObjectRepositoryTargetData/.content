@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="S2SeRpLG3UCpSwWOlkSSUQ" Reference="QrbtKp_Tw0WFD8uheM-Lfw/bac7TkN5jUyd50QuErvS8A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="1436e3b2-90db-4b3d-9685-9c87e4e34308" CvElementArea="686, 198, 82, 34" CvType="Button" DesignTimeRectangle="696, 210, 12, 12" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='40&amp;apos; FT' parentid='radix-_r_61_' tag='INPUT' type='radio' class='sc-6ccacedb-0 hBeIhc' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="40a70985-e0d1-4278-9850-4a0d53d71871" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1436e3b2-90db-4b3d-9685-9c87e4e34308" CvElementArea="686, 198, 82, 34" CvTextArea="714, 208, 35, 14" CvTextArgument="40' FT" CvType="Button" DesignTimeRectangle="687, 200, 79, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='radix-_r_61_' tag='LABEL' class='sc-3721dfd1-4 gyZWuH' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='40&amp;apos; FT' /&gt;" Guid="f26d1797-6233-4bfd-93fd-8ac10f791e83" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ffa6f16bce7e4ab525f85ee61a7fa260.jpg" xmlns="">0S195vng_Qky6nsuMbvv_rA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

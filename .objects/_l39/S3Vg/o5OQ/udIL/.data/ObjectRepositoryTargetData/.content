@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nleV1-vMFkWLMRmJwU8zFQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myceva-tracking-app-stage.cevalogistics.com/quote/success" DesignTimeRectangle="1062, 268, 264, 207" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div' parentid='myceva-app-content' tag='DIV' /&gt;" Guid="d7cc27ec-4ece-436e-b91a-38201c1e3f32" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Quote Requested | myCEVA Logistics' /&gt;" SearchSteps="Selector" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="2a90fd6d3c3b20410b65a9501309e732.jpg" xmlns="">0cT9JWXfKHEeRBzniKJ7s1A</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

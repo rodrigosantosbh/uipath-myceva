@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SA9yEV9dY06tHkPXTBIb4Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/result" CVScreenId="15e3c01c-a8fa-440a-b705-6ea0f7f3a479" CvElementArea="1174, 594, 142, 44" CvTextArea="1197, 607, 67, 16" CvTextArgument="Continue" CvType="Button" DesignTimeRectangle="1175, 596, 139, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='additional-services-button-additional_services_container.continue_requesting_quote-0' tag='BUTTON' /&gt;" Guid="ffc1c183-1254-41ec-b4dd-b6865cd03431" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Quote Result | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6f05f3ea18845f7acabd5fe19eed4d3d.jpg" xmlns="">0popLUvZiZk-l8WUIAmfb-g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

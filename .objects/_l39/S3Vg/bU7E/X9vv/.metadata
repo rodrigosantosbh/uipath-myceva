@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Goods description",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "X9vviglDiU2g4JCxcR0cQw",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/X9vviglDiU2g4JCxcR0cQw",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-03-08T17:55:45.2668417Z",
+  "Updated": "2026-03-08T17:55:45.2668417Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

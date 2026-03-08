@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uzE7jQenHUG_ZD6FD3vO3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="19487de2-d465-47c0-aa96-5ce06aa2d9b2" CvElementArea="455, 430, 235, 43" CvType="InputBox" DesignTimeRectangle="457, 431, 231, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='quantity-0' tag='INPUT' type='number' class='sc-9d430cef-2 cRMgyZ' placeholder='0' aaname='Quantity*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="05e32d2b-5e42-46a9-9cc4-1944392fcab7" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="19487de2-d465-47c0-aa96-5ce06aa2d9b2" CvTextArea="464, 411, 57, 15" CvTextArgument="Quantity *" CvType="Text" DesignTimeRectangle="457, 409, 231, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='radix-_r_61_' tag='LABEL' class='sc-9d430cef-4 krizYl' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Quantity*' /&gt;" Guid="4ae4cbfb-9faf-4c63-9682-ff8b31236ec0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="04e7533508b987cb703e31f3b419a0c9.jpg" xmlns="">048atazgfzEmRCIRZhJ91XA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

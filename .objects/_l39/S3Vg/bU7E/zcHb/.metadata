@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Continue",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "zcHbG-TbDUuUIwUEs3uABA",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/zcHbG-TbDUuUIwUEs3uABA",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-03-08T17:55:45.5550811Z",
+  "Updated": "2026-03-08T17:55:45.5550811Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

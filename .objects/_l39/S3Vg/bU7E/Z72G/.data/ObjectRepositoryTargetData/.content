@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bGE228KqdkKm9Q5wVsvEvw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="19487de2-d465-47c0-aa96-5ce06aa2d9b2" CvElementArea="722, 430, 235, 42" CvType="InputBox" DesignTimeRectangle="724, 431, 231, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='weight-per-unit-0' tag='INPUT' type='number' class='sc-9d430cef-2 cRMgyZ' placeholder='0' aaname='Weight per unit (KG)*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="e62a75c4-486f-4943-bb51-98bc08f56bc6" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="19487de2-d465-47c0-aa96-5ce06aa2d9b2" CvTextArea="730, 411, 123, 15" CvTextArgument="Weight per unit {KG) *" CvType="Text" DesignTimeRectangle="724, 409, 231, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='sc-9d430cef-4 krizYl' parentid='radix-_r_61_' tag='LABEL' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Weight per unit (KG)*' /&gt;" Guid="ec44d8f6-f8fc-4d20-ad5d-690a2cb87c22" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="9a3dbf089141ecc3a6ae97320d2af10d.jpg" xmlns="">0k0wgw6eN-kSPDqDhRnDIJA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Oversized",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "fXfD5HW340ODUaa0IBdjAQ",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/fXfD5HW340ODUaa0IBdjAQ",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/bU7EycvYFEGpMWuw1tIaBQ",
+  "Created": "2026-03-08T17:55:45.4330514Z",
+  "Updated": "2026-03-08T17:55:45.4330514Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
