@@ -12,7 +12,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "26.0.187.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.226720785",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -49,7 +49,7 @@
         "fileName": "Test Sign up.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "bf919acd-85c9-4ae2-bae6-4e11b36c10dc",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="XyvI-ocuHUG4HH5mwitQkQ" Reference="QrbtKp_Tw0WFD8uheM-Lfw/q7Ly_p_G9EqO7Bac8UzaSQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="zwiv-pgx2EKCyF4bhUnS5Q" Reference="QrbtKp_Tw0WFD8uheM-Lfw/q7Ly_p_G9EqO7Bac8UzaSQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp" CVScreenId="5d6da0e8-1b62-47f1-a923-474da3e8051e" CvElementArea="1136, 106, 80, 43" CvTextArea="1155, 119, 41, 16" CvTextArgument="Log In" CvType="Button" DesignTimeRectangle="1138, 107, 76, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='button-hp-nav-login' tag='BUTTON' /&gt;" Guid="a189fc24-33ca-43b9-8e39-35ba2561c622" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Digital Freight Forwarding Platform | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="ccccb312b9238f62e36f8ae0ff22a536.jpg" xmlns="">0FI91IuFx_ES8MUDcoRY69w</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myceva-tracking-app-stage.cevalogistics.com" CVScreenId="2ed9c34b-716c-4f07-8b58-31be988394a2" CvElementArea="1370, 106, 80, 44" CvTextArea="1388, 119, 43, 18" CvTextArgument="Log In" CvType="Button" DesignTimeRectangle="1372, 108, 76, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='button-hp-nav-login-gluu' tag='BUTTON' /&gt;" Guid="2086c1d9-a6e7-425e-9c4c-5c0b815be81e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Digital Freight Forwarding Platform | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f66bb0963c4dea2a89946a350376dfcb.jpg" xmlns="">0YYZTSQ8RCE-WRpZcZW7NAA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

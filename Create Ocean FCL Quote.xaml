@@ -245,7 +245,7 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Create_Ocean_FCL_Quote" sap:VirtualizedContainerService.HintSize="1241,5568" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Create_Ocean_FCL_Quote" sap:VirtualizedContainerService.HintSize="908,5548" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
         <sap:WorkflowViewStateService.ViewState>
@@ -261,7 +261,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Cockpit/Home page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="570,5545" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Cockpit/Home page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="570,5525" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" InteractionMode="DebuggerApi" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -276,12 +276,21 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cockpit'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" OutUiElement="[outputElement]" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Cockpit'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_8" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+              <uix:NClick.OutUiElement>
+                <OutArgument x:TypeArguments="ui:UiElement">
+                  <VisualBasicReference x:TypeArguments="ui:UiElement" ExpressionText="outputElement" sap2010:WorkflowViewState.IdRef="VisualBasicReference`1_1">
+                    <VisualBasicReference.Result>
+                      <OutArgument x:TypeArguments="Location(ui:UiElement)" />
+                    </VisualBasicReference.Result>
+                  </VisualBasicReference>
+                </OutArgument>
+              </uix:NClick.OutUiElement>
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="70381a1f-7db7-49ab-be0e-f4c5375916e3" ContentHash="gFifZbiirUia-7GivCncfw" CvTextArea="221, 118, 57, 18" CvTextArgument="Cockpit" CvType="Text" DesignTimeRectangle="223, 95, 54, 62" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Cockpit' tag='A' /&gt;" Guid="5c63e61e-97aa-46f5-b8d5-10c69df268b2" InformativeScreenshot="6f2ebe74e1409d71964f3aa9f9008b51.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/cA81S0PjJk2sCVUYTJiG1A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close popup'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Close popup'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_4" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/cockpit" CVScreenId="0b1e9dcc-c6d2-4779-b57f-ce5eb9a3e3f3" ContentHash="H6wDB6xgiEur0q-IP-QrgQ" CvElementArea="1008, 191, 20, 19" CvType="CloseButton" DesignTimeRectangle="994, 178, 47, 47" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='wm-visual-design-shape' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' tag='DIV' /&gt;" Guid="6ac765c7-9d8d-4877-80c7-ebf0cdd6df85" InformativeScreenshot="3e1905756223b80422e468e9eb7586c9.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/RUZTt7aymEe1y8_gCjCSJQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
@@ -294,7 +303,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close advising'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close advising'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/quote/criteria" CVScreenId="afbae969-e62e-4268-966c-8ea9580942c8" ContentHash="58sXJBUDO0aUb5oDsxh8Kw" CvElementArea="635, 581, 114, 43" CvTextArea="670, 594, 42, 15" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="637, 582, 109, 40" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='wm-visual-design-shape' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' tag='DIV' /&gt;" Guid="f6abcf5a-4efe-46a2-b38b-751cfe11aad1" InformativeScreenshot="c78b5cb4798d8cacc87fddeefaa5cda3.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/t5xtq2JtlU67iOG7dMiwxw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Quote Criteria | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
                         <uix:TargetAnchorable.PointOffset>
@@ -306,7 +315,7 @@
                 </Sequence>
               </ui:CommentOut.Body>
             </ui:CommentOut>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New quote'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'New quote'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_1" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/cockpit" CVScreenId="0412c360-4a87-4924-9cc2-851237c4b309" ContentHash="SvmfthbUjkm0aMYvUIJTQA" CvElementArea="1104, 496, 163, 43" CvType="Button" DesignTimeRectangle="1106, 498, 160, 40" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='button-cockpit-quote-link' tag='BUTTON' /&gt;" Guid="15dec40e-571b-4327-8338-b7fb258a1e44" InformativeScreenshot="02755a5ebe542cfdf7592d52f41b7673.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/HhL9WGTVFU2qWC4TBK7phw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -315,7 +324,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ocean Instant quote'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Ocean Instant quote'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_2" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/criteria" CVScreenId="5d4d2998-9c7b-418f-a140-866b71bed2e2" ContentHash="4-EK3Pl0r0GtM-n8dEOYdA" CvTextArea="497, 579, 137, 15" CvTextArgument="Ocean Instant quote" CvType="Text" DesignTimeRectangle="425, 562, 250, 48" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" Guid="3ebe2d94-9048-425e-898b-ea62c71d4be1" InformativeScreenshot="907db4d5d25108be7254a76c2bbabc26.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/RwQwznx_c02hlCmvx2O57A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Quote Criteria | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -324,7 +333,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Export - sale type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Export - sale type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_5" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="8c059c5a-a24b-4cf7-9e0e-702429463362" ContentHash="iQziIEaLi0yCEtBaPSCe6A" CvTextArea="691, 379, 38, 15" CvTextArgument="Export" CvType="Text" DesignTimeRectangle="663, 370, 82, 32" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' tag='LABEL' /&gt;" Guid="a116ddde-42c4-4183-a34b-15cfff6707b6" InformativeScreenshot="44dab834cb67a005e0c2ef32e4ec137d.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/quOBe_AZ6kqoUv2ZxleVWA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -333,7 +342,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Port/CFS - loading'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Port/CFS - loading'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_6" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="8c059c5a-a24b-4cf7-9e0e-702429463362" ContentHash="22ix1bUgSUSVZCKbJchBUA" CvTextArea="634, 435, 49, 12" CvTextArgument="Port/CFS" CvType="Text" DesignTimeRectangle="606, 426, 94, 32" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;fieldset&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;label' tag='LABEL' /&gt;" Guid="5ecc374f-0b3e-4d86-86bb-bbf440b21dc1" InformativeScreenshot="fb8647010e3a4f8174162a8e26723334.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/8Mz_HQyHgkWm0hCAHgXNUg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -342,7 +351,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Port of Loading'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Text="CNSHG" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Port of Loading'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InUiElement="{x:Null}" InteractionMode="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" SecureText="{x:Null}" Text="CNSHG" Timeout="{x:Null}" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="8c059c5a-a24b-4cf7-9e0e-702429463362" ContentHash="xZejIgjznkG88of__MAkeA" CvTextArea="474, 516, 98, 17" CvTextArgument="Type to search" CvType="Text" DesignTimeRectangle="440, 503, 413, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='_r_12_' tag='INPUT' type='text' class='sc-16e01544-0 khDaYY' placeholder='Type to search' aaname='Port of Loading*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="e5314122-baf3-4464-9d8f-8855a3b39079" InformativeScreenshot="1ea78ed09ed89f77076fce9d329a1a61.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/JFWPTB0HxU2Qrqvg5Gl4Uw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -356,7 +365,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Port result'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Port result'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_12" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" ContentHash="k22fvB4VkkORAaGypyBQwA" DesignTimeRectangle="444, 253, 508, 40" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='option' tag='DIV' /&gt;" Guid="76c71090-a277-4b42-a47b-23332e635484" InformativeScreenshot="74a4b9e98343249d1473174df6f9eacb.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/b-M5ANxGFkyV4EZDqM3pCg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -365,7 +374,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Port of Discharge'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Text="FRLEH" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Port of Discharge'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InUiElement="{x:Null}" InteractionMode="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" SecureText="{x:Null}" Text="FRLEH" Timeout="{x:Null}" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="e5710872-18d3-4b9b-8485-a98d5f0a0e66" ContentHash="5egQCdB0nEqKhwLKEjjHkg" CvTextArea="474, 482, 98, 17" CvTextArgument="Type to search" CvType="Text" DesignTimeRectangle="440, 469, 413, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aria-labelledby='pod-label' tag='INPUT' type='text' class='sc-16e01544-0 khDaYY' placeholder='Type to search' aaname='Port of Discharge*' matching:aria-labelledby='fuzzy' fuzzylevel:aria-labelledby='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="23ce3f4c-2305-4cf9-82e3-1fd541b38c7f" InformativeScreenshot="e5a618e7e7786878a8f1f32809ef67a6.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/XB0p3jiiP0mPTFJ_IhBDSw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -379,7 +388,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Port result'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Port result'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_13" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" ContentHash="k22fvB4VkkORAaGypyBQwA" DesignTimeRectangle="444, 253, 508, 40" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='option' tag='DIV' /&gt;" Guid="76c71090-a277-4b42-a47b-23332e635484" InformativeScreenshot="74a4b9e98343249d1473174df6f9eacb.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/b-M5ANxGFkyV4EZDqM3pCg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -388,7 +397,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'FCL - Full Container Load'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'FCL - Full Container Load'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_9" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" ContentHash="YB2UedS1D0igBPkECvjiJA" DesignTimeRectangle="440, 254, 413, 74" DesignTimeScaleFactor="1" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;fieldset&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;label&amp;gt;div' idx='5' parentid='myceva-app-content' tag='DIV' /&gt;" Guid="cd1fcda6-848c-41d9-8a46-cbbe0027af24" InformativeScreenshot="4989b15908bbca23c0897586e98ad7b8.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/l3eF-Wu7jkewW5TF5h78rQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -397,7 +406,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Expected departure date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Text="23/03/2026" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Expected departure date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InUiElement="{x:Null}" InteractionMode="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" SecureText="{x:Null}" Text="23/03/2026" Timeout="{x:Null}" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="10395727-03f5-4dd6-8759-ee6a0942b13d" ContentHash="0r_14yW-XUOEFjoR5HhX6Q" CvTextArea="893, 508, 75, 13" CvTextArgument="12/03/2026" CvType="Text" DesignTimeRectangle="885, 495, 405, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='expected-cargo-ready-date' tag='INPUT' type='text' class='sc-9d430cef-2 fsDFcq' placeholder='Select a date' aaname='Expected departure date*    ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="6292f877-cf49-4a29-b31f-d884a9b2037c" InformativeScreenshot="335bd8a0f8724e09e194b80996c9ea3a.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/RzU2WldenEeijJYTcjc0cg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -412,7 +421,7 @@
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
             <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="534,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'KG / CM / ºC'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'KG / CM / ºC'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_14" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="ac369429-b7bc-4d8e-9436-53856e4ef846" ContentHash="NfeEUXyeCUuoGkKpbJZiyQ" DesignTimeRectangle="1205, 349, 85, 18" DesignTimeScaleFactor="1" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;label&amp;gt;div' idx='2' parentid='myceva-app-content' tag='DIV' /&gt;" Guid="fe278626-6c70-4a5a-bdc1-9f85c87ce360" InformativeScreenshot="b8d5ab4ca3f26e2c487586222e951514.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/1MtLKcwIE0unkC7f7fOD4A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -421,7 +430,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '40 FT - container type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click '40 FT - container type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_15" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="1436e3b2-90db-4b3d-9685-9c87e4e34308" ContentHash="S2SeRpLG3UCpSwWOlkSSUQ" CvElementArea="686, 198, 82, 34" CvType="Button" DesignTimeRectangle="696, 210, 12, 12" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='40&amp;apos; FT' parentid='radix-_r_61_' tag='INPUT' type='radio' class='sc-6ccacedb-0 hBeIhc' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="40a70985-e0d1-4278-9850-4a0d53d71871" InformativeScreenshot="ffa6f16bce7e4ab525f85ee61a7fa260.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/bac7TkN5jUyd50QuErvS8A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -432,7 +441,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Quantity'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Text="1" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Quantity'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_7" InUiElement="{x:Null}" InteractionMode="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" SecureText="{x:Null}" Text="1" Timeout="{x:Null}" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="19487de2-d465-47c0-aa96-5ce06aa2d9b2" ContentHash="uzE7jQenHUG_ZD6FD3vO3Q" CvElementArea="455, 430, 235, 43" CvType="InputBox" DesignTimeRectangle="457, 431, 231, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='quantity-0' tag='INPUT' type='number' class='sc-9d430cef-2 cRMgyZ' placeholder='0' aaname='Quantity*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="05e32d2b-5e42-46a9-9cc4-1944392fcab7" InformativeScreenshot="04e7533508b987cb703e31f3b419a0c9.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/hIc1UhIkIkSp5FOApm3Ykw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -456,7 +465,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Weight per unit (KG)*'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Text="1000" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Weight per unit (KG)*'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_8" InUiElement="{x:Null}" InteractionMode="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" SecureText="{x:Null}" Text="1000" Timeout="{x:Null}" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="19487de2-d465-47c0-aa96-5ce06aa2d9b2" ContentHash="bGE228KqdkKm9Q5wVsvEvw" CvElementArea="722, 430, 235, 42" CvType="InputBox" DesignTimeRectangle="724, 431, 231, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='weight-per-unit-0' tag='INPUT' type='number' class='sc-9d430cef-2 cRMgyZ' placeholder='0' aaname='Weight per unit (KG)*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="e62a75c4-486f-4943-bb51-98bc08f56bc6" InformativeScreenshot="9a3dbf089141ecc3a6ae97320d2af10d.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/Z72GoH1jKkKO10vjHmKmQw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -480,7 +489,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Total cargo value*'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Text="100" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Total cargo value*'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,246" sap2010:WorkflowViewState.IdRef="NTypeInto_9" InUiElement="{x:Null}" InteractionMode="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" SecureText="{x:Null}" Text="100" Timeout="{x:Null}" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="37b97304-6d4a-4ad5-8996-84364f4177b1" ContentHash="DUuLQnCUXUelP4VWWwW77w" CvElementArea="440, 446, 489, 42" CvType="InputBox" DesignTimeRectangle="440, 447, 488, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='total-cargo-value' tag='INPUT' type='number' class='sc-9d430cef-2 cRMgyZ' placeholder='e.g. 169.300' aaname='Total cargo value*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="e636a3a8-3915-480b-95ad-667a774bcf1f" InformativeScreenshot="97e491e3014af489a9665ccb15f02aac.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/IZf_SP3gUEmfSVehbjoFJA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -504,7 +513,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continue'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Continue'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_16" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/quote/ocean/request" CVScreenId="5dd84935-f494-4df7-a3ea-8695a51a8b29" ContentHash="Kc0PFX8J-kKiRohDZ6XTCA" CvElementArea="1406, 616, 114, 43" CvTextArea="1430, 629, 67, 16" CvTextArgument="Continue" CvType="Button" DesignTimeRectangle="1408, 618, 111, 40" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='ocean-continue-button' tag='BUTTON' /&gt;" Guid="2f9bf917-1b9a-4ac1-82c7-16bd091b08a6" InformativeScreenshot="34dbf7bf80bd6142440a17b609356ca7.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/zcHbG-TbDUuUIwUEs3uABA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Ocean Request Form | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -513,7 +522,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Select'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_19" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/quote/ocean/result" CVScreenId="cd81666d-8838-4130-bbc4-f262368e2831" ContentHash="MwBshKZf7Ee_NegOAAKPVg" CvElementArea="1176, 555, 74, 35" CvTextArea="1191, 564, 45, 16" CvTextArgument="Select" CvType="Button" DesignTimeRectangle="1178, 557, 71, 32" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='select-route' tag='BUTTON' /&gt;" Guid="5c7a75de-c3f4-43c6-8b5d-4f2ee7633c1a" InformativeScreenshot="f074626b3cb5cdd31e09a80d02762f34.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/rzciMjsnLUarBb2OKSBp_Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Quote Result | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -522,7 +531,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,194" sap2010:WorkflowViewState.IdRef="NClick_20" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/quote/ocean/result/additional-services" CVScreenId="d9f55b72-4167-45a0-bf0a-4b94bd91987a" ContentHash="T5GkZTpuO0qwWaBRvNLvSA" CvElementArea="907, 599, 114, 43" CvTextArea="961, 612, 34, 14" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="909, 600, 110, 40" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='save-quote-button' tag='BUTTON' /&gt;" Guid="e8ab6500-86c8-42e5-a3fa-89ac43b923a4" InformativeScreenshot="c52ea6098f790108ea3458a6bd5d0e8b.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/q4kr1DM2SUiaNauaUhj3yg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Additional Services | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -532,10 +541,10 @@
               </uix:NClick.Target>
             </uix:NClick>
             <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="534,123" sap2010:WorkflowViewState.IdRef="Delay_2" />
-            <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="534,253" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_2" Operator="Contains" OutputArgument="TextString" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+            <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="534,253" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_2" KeepScreenshots="{x:Null}" Operator="Contains" OutputArgument="TextString" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
               <uta:VerifyControlAttribute.ActivityToTest>
                 <ActivityAction>
-                  <uix:NGetText DisplayName="Get Text 'Your quotation no.'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="500,111" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+                  <uix:NGetText ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Get Text 'Your quotation no.'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="500,111" sap2010:WorkflowViewState.IdRef="NGetText_1" InUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" ScrapingOptions="{x:Null}" Timeout="{x:Null}" Version="V5">
                     <uix:NGetText.OutUiElement>
                       <OutArgument x:TypeArguments="ui:UiElement">
                         <VariableReference x:TypeArguments="ui:UiElement">
@@ -575,7 +584,7 @@
               </uta:VerifyControlAttribute.ActivityToTest>
               <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
                 <ActivityFunc x:TypeArguments="x:Object">
-                  <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_2">
+                  <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_2" Result="{x:Null}">
                     <uta:ArgumentsBridge.Input>
                       <InArgument x:TypeArguments="x:Object">
                         <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID0}" />
@@ -588,10 +597,10 @@
                 <InArgument x:TypeArguments="x:String">["Your quotation no."]</InArgument>
               </uta:VerifyControlAttribute.Expression>
             </uta:VerifyControlAttribute>
-            <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="534,244" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_3" Operator="Contains" OutputArgument="TextString" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+            <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="534,244" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_3" KeepScreenshots="{x:Null}" Operator="Contains" OutputArgument="TextString" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
               <uta:VerifyControlAttribute.ActivityToTest>
                 <ActivityAction>
-                  <uix:NGetText DisplayName="Get Text 'Quote number'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="500,111" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" Version="V5">
+                  <uix:NGetText ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Get Text 'Quote number'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="500,111" sap2010:WorkflowViewState.IdRef="NGetText_2" InUiElement="{x:Null}" ScopeIdentifier="c6801b73-c4f3-4fc4-95a0-14b4b5df1f4d" ScrapingOptions="{x:Null}" Timeout="{x:Null}" Version="V5">
                     <uix:NGetText.OutUiElement>
                       <OutArgument x:TypeArguments="ui:UiElement">
                         <VariableReference x:TypeArguments="ui:UiElement">
@@ -631,7 +640,7 @@
               </uta:VerifyControlAttribute.ActivityToTest>
               <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
                 <ActivityFunc x:TypeArguments="x:Object">
-                  <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_3">
+                  <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_3" Result="{x:Null}">
                     <uta:ArgumentsBridge.Input>
                       <InArgument x:TypeArguments="x:Object">
                         <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID1}" />
@@ -655,13 +664,10 @@
         </ActivityFunc>
       </uix:NApplicationCard.OCREngine>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="1592, -7, 1382, 736" BrowserType="Chrome" ContentHash="UTSEXuO9_UWbsqSOYPOWoQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB7SURBVDhP3VBBDoAgDOMpQvYQn8bPeIzBb2CQLNsK8+BNm/TA1pZCCP9FpZQrxTaYMu4fIeYXIQdtO5tOikWH9B3qJwwT3xpbn3FI36HewFa21fE8QVdfB0g4em9gdaaurT/XmNfVhVZrm8HQo4inp3jVvQDrcT70W7gAPi20lM4mpi0AAAAASUVORK5CYII=" InformativeScreenshot="04697ea6edcff74a2debae30176f913d.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/ORSwrKXBZkSfjOwen0E77g" Selector="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" Url="https://myceva-tracking-app-stage.cevalogistics.com/quote/criteria" Version="V2">
+        <uix:TargetApp Area="1592, -7, 1382, 736" BrowserType="Chrome" ContentHash="nAFjFJOafk6Yu2QshXKTjw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB7SURBVDhP3VBBDoAgDOMpQvYQn8bPeIzBb2CQLNsK8+BNm/TA1pZCCP9FpZQrxTaYMu4fIeYXIQdtO5tOikWH9B3qJwwT3xpbn3FI36HewFa21fE8QVdfB0g4em9gdaaurT/XmNfVhVZrm8HQo4inp3jVvQDrcT70W7gAPi20lM4mpi0AAAAASUVORK5CYII=" InformativeScreenshot="04697ea6edcff74a2debae30176f913d.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/ORSwrKXBZkSfjOwen0E77g" Selector="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" Url="https://myceva-tracking-app-stage.cevalogistics.com/" Version="V2">
           <uix:TargetApp.Arguments>
             <InArgument x:TypeArguments="x:String" />
           </uix:TargetApp.Arguments>
-          <uix:TargetApp.WorkingDirectory>
-            <InArgument x:TypeArguments="x:String" />
-          </uix:TargetApp.WorkingDirectory>
         </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
