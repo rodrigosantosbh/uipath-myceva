@@ -43,24 +43,31 @@
     "fileInfoCollection": [
       {
         "editingStatus": "InProgress",
-        "testCaseId": "dc621707-b8f0-4c65-8d10-1e3d4423c13e",
+        "testCaseId": "6dfb6fe0-f467-422a-80fe-28b264e6a0ac",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "Test Sign up.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
-        "testCaseId": "bf919acd-85c9-4ae2-bae6-4e11b36c10dc",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "Create Ocean FCL Quote.xaml"
+        "fileName": "Settings - Update Personal Informations.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "268a480b-7e9b-440e-b490-2c3c0d57bcc9",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "Success Login.xaml"
+        "fileName": "Login - Success Login.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "dc621707-b8f0-4c65-8d10-1e3d4423c13e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Login - Test Sign up.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "bf919acd-85c9-4ae2-bae6-4e11b36c10dc",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Quote - Create Ocean FCL Quote.xaml"
       }
     ],
     "saveToCloud": false
@@ -68,7 +75,7 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Success Login.xaml",
+      "filePath": "Login - Success Login.xaml",
       "uniqueId": "00853533-097b-4568-9394-97854f4186d7",
       "input": [],
       "output": []

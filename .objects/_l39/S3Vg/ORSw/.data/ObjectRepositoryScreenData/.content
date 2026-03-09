@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryScreenData ContentHash="nAFjFJOafk6Yu2QshXKTjw" Reference="QrbtKp_Tw0WFD8uheM-Lfw/ORSwrKXBZkSfjOwen0E77g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryScreenData ContentHash="JBIReA3y1kG-GH4Tkctxcg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/ORSwrKXBZkSfjOwen0E77g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryScreenData.Data>
-    <TargetApp x:Key="TargetApp" Area="1592, -7, 1382, 736" BrowserType="Chrome" ContentHash="b0jldaYwuEG4BEIMCYVvPw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB7SURBVDhP3VBBDoAgDOMpQvYQn8bPeIzBb2CQLNsK8+BNm/TA1pZCCP9FpZQrxTaYMu4fIeYXIQdtO5tOikWH9B3qJwwT3xpbn3FI36HewFa21fE8QVdfB0g4em9gdaaurT/XmNfVhVZrm8HQo4inp3jVvQDrcT70W7gAPi20lM4mpi0AAAAASUVORK5CYII=" Reference="QrbtKp_Tw0WFD8uheM-Lfw/ORSwrKXBZkSfjOwen0E77g" Selector="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" Url="https://myceva-tracking-app-stage.cevalogistics.com/" Version="V2">
+    <TargetApp x:Key="TargetApp" Area="1592, -7, 1382, 736" BrowserType="Chrome" ContentHash="nAFjFJOafk6Yu2QshXKTjw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB7SURBVDhP3VBBDoAgDOMpQvYQn8bPeIzBb2CQLNsK8+BNm/TA1pZCCP9FpZQrxTaYMu4fIeYXIQdtO5tOikWH9B3qJwwT3xpbn3FI36HewFa21fE8QVdfB0g4em9gdaaurT/XmNfVhVZrm8HQo4inp3jVvQDrcT70W7gAPi20lM4mpi0AAAAASUVORK5CYII=" Reference="QrbtKp_Tw0WFD8uheM-Lfw/ORSwrKXBZkSfjOwen0E77g" Selector="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" Url="https://myceva-tracking-app-stage.cevalogistics.com/" Version="V2">
       <TargetApp.Arguments>
         <p:InArgument x:TypeArguments="x:String" />
       </TargetApp.Arguments>
-      <imageRef attrName="InformativeScreenshot" originalValue="04697ea6edcff74a2debae30176f913d.jpg" xmlns="">0_0Jf-wPHCUKEdDuzMIUr4Q</imageRef>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="04697ea6edcff74a2debae30176f913d.jpg" xmlns="">0VkgdVqeC7UiuEm9Oz5FsWw</imageRef>
     </TargetApp>
   </ObjectRepositoryScreenData.Data>
 </ObjectRepositoryScreenData>
