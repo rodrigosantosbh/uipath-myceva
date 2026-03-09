@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryScreenData ContentHash="Vn84rgR7xkaYlAHYJNOS3g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryScreenData ContentHash="uoiJjHxpRUiKGA8sruhNyA" Reference="QrbtKp_Tw0WFD8uheM-Lfw/o5OQvSoYyEuGn-fcktmdXg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryScreenData.Data>
-    <TargetApp x:Key="TargetApp" Area="1592, -7, 1382, 736" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB7SURBVDhP3VBBDoAgDOMpQvYQn8bPeIzBb2CQLNsK8+BNm/TA1pZCCP9FpZQrxTaYMu4fIeYXIQdtO5tOikWH9B3qJwwT3xpbn3FI36HewFa21fE8QVdfB0g4em9gdaaurT/XmNfVhVZrm8HQo4inp3jVvQDrcT70W7gAPi20lM4mpi0AAAAASUVORK5CYII=" Selector="&lt;html app='chrome.exe' title='Quote Requested | myCEVA Logistics' /&gt;" Url="https://myceva-tracking-app-stage.cevalogistics.com/quote/success?quoteRef=MCO-561772998621579&amp;shareEmail=&amp;shipmentType=FCL&amp;successType=save_instant_or_scratch" Version="V2">
-      <imageRef attrName="InformativeScreenshot" originalValue="3bc5c5c858eafb606113afdb0b1def82.jpg" xmlns="">0gIdg1iBFK02Tgyd3SnTFIQ</imageRef>
+    <TargetApp x:Key="TargetApp" Area="1592, -7, 1382, 736" BrowserType="Chrome" ContentHash="Vn84rgR7xkaYlAHYJNOS3g" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB7SURBVDhP3VBBDoAgDOMpQvYQn8bPeIzBb2CQLNsK8+BNm/TA1pZCCP9FpZQrxTaYMu4fIeYXIQdtO5tOikWH9B3qJwwT3xpbn3FI36HewFa21fE8QVdfB0g4em9gdaaurT/XmNfVhVZrm8HQo4inp3jVvQDrcT70W7gAPi20lM4mpi0AAAAASUVORK5CYII=" Reference="QrbtKp_Tw0WFD8uheM-Lfw/o5OQvSoYyEuGn-fcktmdXg" Selector="&lt;html app='chrome.exe' title='Quote Requested | myCEVA Logistics' /&gt;" Url="https://myceva-tracking-app-stage.cevalogistics.com/quote/success?quoteRef=MCO-561772998621579&amp;shareEmail=&amp;shipmentType=FCL&amp;successType=save_instant_or_scratch" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="3bc5c5c858eafb606113afdb0b1def82.jpg" xmlns="">0_YzriU5iSkigmJ4tcmzaNg</imageRef>
     </TargetApp>
   </ObjectRepositoryScreenData.Data>
 </ObjectRepositoryScreenData>

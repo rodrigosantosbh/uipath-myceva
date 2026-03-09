@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MwBshKZf7Ee_NegOAAKPVg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myceva-tracking-app-stage.cevalogistics.com/quote/ocean/result" CVScreenId="cd81666d-8838-4130-bbc4-f262368e2831" CvElementArea="1176, 555, 74, 35" CvTextArea="1191, 564, 45, 16" CvTextArgument="Select" CvType="Button" DesignTimeRectangle="1178, 557, 71, 32" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='select-route' tag='BUTTON' /&gt;" Guid="5c7a75de-c3f4-43c6-8b5d-4f2ee7633c1a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Quote Result | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="f074626b3cb5cdd31e09a80d02762f34.jpg" xmlns="">0cIZMm73DekaeMWLcKvYrOQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Save",
+  "Description": "Save quote button",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "q4kr1DM2SUiaNauaUhj3yg",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/q4kr1DM2SUiaNauaUhj3yg",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/ILLnF69IfEC2KeFzw27Y0w",
+  "Created": "2026-03-09T01:39:05.9624633Z",
+  "Updated": "2026-03-09T01:39:05.9624633Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

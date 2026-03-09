@@ -1,3 +1,9 @@
 {
-  "issueKeyTestcaseValues": {}
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/rodrigotech/DefaultTenant/testmanager_",
+  "defaultProject": {
+    "id": "c96a6373-1376-0000-1cba-0b496304f72c",
+    "name": "Myceva",
+    "key": "MYC"
+  }
 }

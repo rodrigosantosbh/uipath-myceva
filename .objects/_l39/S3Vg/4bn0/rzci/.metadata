@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Select",
+  "Description": "Select proposal button",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "rzciMjsnLUarBb2OKSBp_Q",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/rzciMjsnLUarBb2OKSBp_Q",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/4bn04LHjBUaMykPq3rIRlw",
+  "Created": "2026-03-09T01:36:47.9536099Z",
+  "Updated": "2026-03-09T01:36:47.9536099Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

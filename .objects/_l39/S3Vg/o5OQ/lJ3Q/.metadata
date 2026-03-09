@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Quote number",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "lJ3QRU4p8US_n1mSdhl0lQ",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/lJ3QRU4p8US_n1mSdhl0lQ",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/o5OQvSoYyEuGn-fcktmdXg",
+  "Created": "2026-03-09T01:44:37.0454966Z",
+  "Updated": "2026-03-09T01:44:37.0454966Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

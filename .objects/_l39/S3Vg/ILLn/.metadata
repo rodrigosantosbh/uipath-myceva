@@ -1,11 +1,11 @@
 ﻿{
-  "Name": "Quote - Success",
+  "Name": "Quote - Additional services",
   "Type": "Screen",
-  "Id": "o5OQvSoYyEuGn-fcktmdXg",
-  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/o5OQvSoYyEuGn-fcktmdXg",
+  "Id": "ILLnF69IfEC2KeFzw27Y0w",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/ILLnF69IfEC2KeFzw27Y0w",
   "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/S3VgMFeGG0maudmpkqeqsw",
-  "Created": "2026-03-08T19:37:29.9357466Z",
-  "Updated": "2026-03-09T01:41:22.9991161Z",
+  "Created": "2026-03-09T01:38:21.3069792Z",
+  "Updated": "2026-03-09T01:38:36.4209745Z",
   "CreatedBy": [
     "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
   ],

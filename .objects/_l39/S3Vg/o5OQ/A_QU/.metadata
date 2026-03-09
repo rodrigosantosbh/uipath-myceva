@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Your quotation no.",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "A_QUYR-2GUqXGZBG7_LPgA",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/A_QUYR-2GUqXGZBG7_LPgA",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/o5OQvSoYyEuGn-fcktmdXg",
+  "Created": "2026-03-09T01:41:23.0445591Z",
+  "Updated": "2026-03-09T01:41:23.0445591Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

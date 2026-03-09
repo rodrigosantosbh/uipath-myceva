@@ -46,21 +46,21 @@
         "testCaseId": "dc621707-b8f0-4c65-8d10-1e3d4423c13e",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "001_Test Sign up.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "268a480b-7e9b-440e-b490-2c3c0d57bcc9",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "002_Success Login.xaml"
+        "fileName": "Test Sign up.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "bf919acd-85c9-4ae2-bae6-4e11b36c10dc",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "003_Create Ocean FCL Quote.xaml"
+        "fileName": "Create Ocean FCL Quote.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "268a480b-7e9b-440e-b490-2c3c0d57bcc9",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Success Login.xaml"
       }
     ],
     "saveToCloud": false
@@ -68,7 +68,7 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "002_Success Login.xaml",
+      "filePath": "Success Login.xaml",
       "uniqueId": "00853533-097b-4568-9394-97854f4186d7",
       "input": [],
       "output": []
