@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Settings___Update_Personal_Informations" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Support___Create_New_request" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="UiPathEventConnector" Type="InArgument(x:String)" />
     <x:Property Name="UiPathEvent" Type="InArgument(x:String)" />
@@ -6,25 +6,25 @@
     <x:Property Name="UiPathEventObjectId" Type="InArgument(x:String)" />
     <x:Property Name="UiPathAdditionalEventData" Type="InArgument(x:String)" />
   </x:Members>
-  <this:Settings___Update_Personal_Informations.UiPathEventConnector>
+  <this:Support___Create_New_request.UiPathEventConnector>
     <InArgument x:TypeArguments="x:String" />
-  </this:Settings___Update_Personal_Informations.UiPathEventConnector>
-  <this:Settings___Update_Personal_Informations.UiPathEvent>
+  </this:Support___Create_New_request.UiPathEventConnector>
+  <this:Support___Create_New_request.UiPathEvent>
     <InArgument x:TypeArguments="x:String" />
-  </this:Settings___Update_Personal_Informations.UiPathEvent>
-  <this:Settings___Update_Personal_Informations.UiPathEventObjectType>
+  </this:Support___Create_New_request.UiPathEvent>
+  <this:Support___Create_New_request.UiPathEventObjectType>
     <InArgument x:TypeArguments="x:String" />
-  </this:Settings___Update_Personal_Informations.UiPathEventObjectType>
-  <this:Settings___Update_Personal_Informations.UiPathEventObjectId>
+  </this:Support___Create_New_request.UiPathEventObjectType>
+  <this:Support___Create_New_request.UiPathEventObjectId>
     <InArgument x:TypeArguments="x:String" />
-  </this:Settings___Update_Personal_Informations.UiPathEventObjectId>
-  <this:Settings___Update_Personal_Informations.UiPathAdditionalEventData>
+  </this:Support___Create_New_request.UiPathEventObjectId>
+  <this:Support___Create_New_request.UiPathAdditionalEventData>
     <InArgument x:TypeArguments="x:String" />
-  </this:Settings___Update_Personal_Informations.UiPathAdditionalEventData>
+  </this:Support___Create_New_request.UiPathAdditionalEventData>
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap2010:WorkflowViewState.IdRef>Settings___Update_Personal_Informations_1</sap2010:WorkflowViewState.IdRef>
+  <sap2010:WorkflowViewState.IdRef>Support___Create_New_request_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -51,16 +51,16 @@
       <x:String>System.Windows.Markup</x:String>
       <x:String>GlobalVariablesNamespace</x:String>
       <x:String>GlobalConstantsNamespace</x:String>
-      <x:String>System.Runtime.Serialization</x:String>
       <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
       <x:String>UiPath.UIAutomationCore.Contracts</x:String>
-      <x:String>UiPath.UIAutomationNext.Models</x:String>
       <x:String>UiPath.UIAutomationNext.Activities</x:String>
       <x:String>UiPath.Shared.Activities</x:String>
       <x:String>UiPath.Platform.ObjectLibrary</x:String>
       <x:String>UiPath.Platform.SyncObjects</x:String>
-      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
-      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
       <x:String>System.Security</x:String>
       <x:String>System.ComponentModel</x:String>
       <x:String>UiPath.UIAutomationNext</x:String>
@@ -140,8 +140,6 @@
       <x:String>System.Net.NetworkInformation</x:String>
       <x:String>System.Net.Security</x:String>
       <x:String>System.Net.Sockets</x:String>
-      <x:String>UiPath.Testing</x:String>
-      <x:String>UiPath.Testing.Activities</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -168,13 +166,13 @@
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
       <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
       <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
@@ -234,40 +232,19 @@
       <AssemblyReference>System.Net.NetworkInformation</AssemblyReference>
       <AssemblyReference>System.Net.Ping</AssemblyReference>
       <AssemblyReference>System.Net.Sockets</AssemblyReference>
-      <AssemblyReference>UiPath.Workflow</AssemblyReference>
-      <AssemblyReference>System.Console</AssemblyReference>
-      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
-      <AssemblyReference>System.Private.Uri</AssemblyReference>
-      <AssemblyReference>System.Collections</AssemblyReference>
-      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
-      <AssemblyReference>UiPath.Testing</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="908,1232" sap2010:WorkflowViewState.IdRef="Sequence_20">
+  <Sequence sap:VirtualizedContainerService.HintSize="908,1177" sap2010:WorkflowViewState.IdRef="Sequence_9">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="_RandomFirstName__as_System_Activities_OutArgument_System_String_" />
-      <Variable x:TypeArguments="x:String" Name="_RandomLastName__as_System_Activities_OutArgument_System_String_" />
       <Variable x:TypeArguments="x:Object" Name="WSSessionData" />
-      <Variable x:TypeArguments="s:String[]" Name="_realisticNames__as_System_Activities_OutArgument_System_String___" />
-      <Variable x:TypeArguments="x:String" Name="RandomLastName" />
-      <Variable x:TypeArguments="s:String[]" Name="realisticNames" />
-      <Variable x:TypeArguments="x:String" Name="RandomFirstName" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ManualTrigger Result="{x:Null}" DisplayName="Manual Trigger" sap:VirtualizedContainerService.HintSize="488,79" sap2010:WorkflowViewState.IdRef="ManualTrigger_6" />
-    <Assign DisplayName="Initialize the realisticNames array with a predefined list of names" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="Assign_13">
-      <Assign.To>
-        <OutArgument x:TypeArguments="s:String[]">[realisticNames]</OutArgument>
-      </Assign.To>
-      <Assign.Value>
-        <InArgument x:TypeArguments="s:String[]">[New String() {"Rodrigo", "John", "Jane", "Peter", "Mary", "David", "Susan", "Michael", "Linda", "James"}]</InArgument>
-      </Assign.Value>
-    </Assign>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Cockpit/Home page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,955" sap2010:WorkflowViewState.IdRef="NApplicationCard_9" ScopeGuid="f6916ee8-8c42-4fc2-820d-85f86cd59ccf" Version="V2" WindowResize="Maximize">
+    <ui:ManualTrigger Result="{x:Null}" DisplayName="Manual Trigger" sap:VirtualizedContainerService.HintSize="452,79" sap2010:WorkflowViewState.IdRef="ManualTrigger_4" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Cockpit | myCEVA Logistics" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1075" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" IsDisplayNameAuto="True" ScopeGuid="89da3428-cfe5-422a-bfee-4e38edf8aeb9" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.AutoGenerationOptions>
         <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
           <uix:GenerationOptions.ExpectedOutputs>
@@ -282,74 +259,15 @@
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,761" sap2010:WorkflowViewState.IdRef="Sequence_19">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,881" sap2010:WorkflowViewState.IdRef="Sequence_8">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Cockpit/Home page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,311" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" OpenMode="Never" ScopeGuid="8b437030-3cd9-48a3-9cc4-82c9c0db0002" Version="V2">
-              <uix:NApplicationCard.AutoGenerationOptions>
-                <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
-                  <uix:GenerationOptions.ExpectedOutputs>
-                    <scg:List x:TypeArguments="x:String" Capacity="4">
-                      <x:Null />
-                    </scg:List>
-                  </uix:GenerationOptions.ExpectedOutputs>
-                </uix:GenerationOptions>
-              </uix:NApplicationCard.AutoGenerationOptions>
-              <uix:NApplicationCard.Body>
-                <ActivityAction x:TypeArguments="x:Object">
-                  <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-                  </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_18">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close popup'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8b437030-3cd9-48a3-9cc4-82c9c0db0002" Version="V5">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/cockpit" CVScreenId="0b1e9dcc-c6d2-4779-b57f-ce5eb9a3e3f3" ContentHash="H6wDB6xgiEur0q-IP-QrgQ" CvElementArea="1008, 191, 20, 19" CvType="CloseButton" DesignTimeRectangle="994, 178, 47, 47" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='wm-visual-design-shape' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' tag='DIV' /&gt;" Guid="6ac765c7-9d8d-4877-80c7-ebf0cdd6df85" InformativeScreenshot="3e1905756223b80422e468e9eb7586c9.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/RUZTt7aymEe1y8_gCjCSJQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                      </uix:NClick.Target>
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                    </uix:NClick>
-                  </Sequence>
-                </ActivityAction>
-              </uix:NApplicationCard.Body>
-              <uix:NApplicationCard.OCREngine>
-                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
-                  <ActivityFunc.Argument>
-                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
-                  </ActivityFunc.Argument>
-                </ActivityFunc>
-              </uix:NApplicationCard.OCREngine>
-              <uix:NApplicationCard.TargetApp>
-                <uix:TargetApp Area="1592, -7, 1382, 736" BrowserType="Chrome" ContentHash="JBIReA3y1kG-GH4Tkctxcg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB7SURBVDhP3VBBDoAgDOMpQvYQn8bPeIzBb2CQLNsK8+BNm/TA1pZCCP9FpZQrxTaYMu4fIeYXIQdtO5tOikWH9B3qJwwT3xpbn3FI36HewFa21fE8QVdfB0g4em9gdaaurT/XmNfVhVZrm8HQo4inp3jVvQDrcT70W7gAPi20lM4mpi0AAAAASUVORK5CYII=" InformativeScreenshot="04697ea6edcff74a2debae30176f913d.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/ORSwrKXBZkSfjOwen0E77g" Selector="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" Url="https://myceva-tracking-app-stage.cevalogistics.com/" Version="V2">
-                  <uix:TargetApp.Arguments>
-                    <InArgument x:TypeArguments="x:String" />
-                  </uix:TargetApp.Arguments>
-                  <uix:TargetApp.WorkingDirectory>
-                    <InArgument x:TypeArguments="x:String" />
-                  </uix:TargetApp.WorkingDirectory>
-                </uix:TargetApp>
-              </uix:NApplicationCard.TargetApp>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </uix:NApplicationCard>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Menu'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f6916ee8-8c42-4fc2-820d-85f86cd59ccf" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close popup'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="89da3428-cfe5-422a-bfee-4e38edf8aeb9" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/cockpit" CVScreenId="1631deed-d4ec-400d-a18b-5247e92d7f78" ContentHash="SxiVLxJ1ck-Nw8WgfP9cig" CvElementArea="1263, 100, 54, 53" CvType="Icon" DesignTimeRectangle="1266, 103, 48, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;header&amp;gt;div&amp;gt;div' idx='5' parentid='navbar-connected' tag='DIV' /&gt;" Guid="cc064099-b818-4d64-9924-5327b8acbd60" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIuSURBVGhD3Zo9TsQwEIVTcAZaGi6AKLkCPWcA0UGFKIEbUHEACmiBjpoGbUGJhGhAQAM3MHpIiZyXcTyOl8SZ4pN2nYn9Xn7GEyfVyvqes0TFDXNnqYbWto7czv6FOzu/c1e3j+5h8eKeX7/c28f3H/iNNmxDDGKxD/eTQ7ah1c1Dt3t86W7un9z7588gsC/6QF/cfyqDDeHI4ijjyLPAoaAv9Jlz1gYZOji5XqoRBn1jDB5XQ5Khje3TrEsrFYyFMVlHH2pDuIH/86yEwJgYm/WEUBnCDcsDjQ00sC6JqKESzNRoTPUawqnmTqcmdvkFDeFmnOKeiQFNfYkiaGjMbJYKtLHeXkOYA7iT0gjNUx1DmKVLvNQYaJQqio4hlB68c6lAK+tvGUJxOIezUwOtXNC2DJU052jhuallqOTMFoIzXmMINxgHzwU/OTSGSqwKtPjVQ2MoN7tVVSXCcVIsb0/Fz3aNITznc2AKLDIkmLdJMalAe8cQFi84MAVJGLfx/1i7FmjvGMKKDAemIIniNv4fa9cC7R1DuRNqLYqRYkL7crsWaB/NkC+U/8fatYiGzF1y5pKCubQ95cQaitMiTqxTlT7LMCWWPlMWpzlmgFicAlOPD8DcA565R3CQm+3GJLpIAswtYwFTC401JWc8zmwqQ+YW68FU1UMfg1+n1JQ0N/GcIxE1BEowpTEDVIaAqZfGNaZe6/uY+fDCx9SnMT5mPl6SMPF5WWmYM/QLPpPUT5ikEhsAAAAASUVORK5CYII=" InformativeScreenshot="995f11bd0ca3c32210d11c23199bc44e.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/G0etNieIW0m-sqr7TOEi6g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable BrowserURL="c-fast-react-app-stage-mt.kus.logistics.corp/cockpit" CVScreenId="0b1e9dcc-c6d2-4779-b57f-ce5eb9a3e3f3" ContentHash="H6wDB6xgiEur0q-IP-QrgQ" CvElementArea="1008, 191, 20, 19" CvType="CloseButton" DesignTimeRectangle="994, 178, 47, 47" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='wm-visual-design-shape' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' tag='DIV' /&gt;" Guid="6ac765c7-9d8d-4877-80c7-ebf0cdd6df85" InformativeScreenshot="3e1905756223b80422e468e9eb7586c9.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/RUZTt7aymEe1y8_gCjCSJQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -358,9 +276,9 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Settings'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f6916ee8-8c42-4fc2-820d-85f86cd59ccf" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Support'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="89da3428-cfe5-422a-bfee-4e38edf8aeb9" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/cockpit" CVScreenId="5f3a15c7-f464-41ab-b0d6-295b37c08816" ContentHash="yyZ25BkdzEyBCzzHV-A_CQ" CvTextArea="1216, 225, 61, 19" CvTextArgument="Settings" CvType="Text" DesignTimeRectangle="1202, 209, 129, 50" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Settings' tag='A' /&gt;" Guid="270294e5-30e8-4393-9e93-e16c4ec7118a" InformativeScreenshot="2844b0bd099ac0945adacf3d0a211a62.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/OhA_n765pUmoBuWyDK8sZA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable CVScreenId="70381a1f-7db7-49ab-be0e-f4c5375916e3" ContentHash="uNIwTgmJW0q2LAT-yyNQRA" CvTextArea="596, 118, 58, 19" CvTextArgument="Support" CvType="Text" DesignTimeRectangle="597, 95, 56, 62" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Support' tag='A' /&gt;" Guid="829e9216-845b-42c6-a93f-7ffd8b496697" InformativeScreenshot="c51e49d9e83f086bb57784a3b8c95f82.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/x4k_FdZLck23iKf82c53hQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cockpit | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6" />
               </uix:NClick.Target>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -369,40 +287,70 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NClick>
-            <Assign DisplayName="Generate a random first name for testing" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="Assign_14">
-              <Assign.To>
-                <OutArgument x:TypeArguments="x:String">[RandomFirstName]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="x:String">[realisticNames(New Random().Next(realisticNames.Length))]</InArgument>
-              </Assign.Value>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New request'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="89da3428-cfe5-422a-bfee-4e38edf8aeb9" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/support" CVScreenId="0056ee59-0c78-446f-8a5b-c5ae74e54520" ContentHash="xaadxtWEkEqYx2hw77A6Ew" CvElementArea="1196, 211, 140, 43" CvTextArea="1220, 225, 92, 18" CvTextArgument="New request" CvType="Button" DesignTimeRectangle="1198, 213, 136, 40" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='button-support-new' tag='BUTTON' /&gt;" Guid="7d1b2656-4ae6-48e8-bd2e-598bb388e0de" InformativeScreenshot="26fdbd854784a1d77c39e2b14362f487.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/frfGurER_02K26mdeHhvVA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My Requests | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-            </Assign>
-            <Assign DisplayName="Generate a random last name for testing" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="Assign_15">
-              <Assign.To>
-                <OutArgument x:TypeArguments="x:String">[RandomLastName]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="x:String">[realisticNames(New Random().Next(realisticNames.Length))]</InArgument>
-              </Assign.Value>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </Assign>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type the generated random first name into the 'First Name' field" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="f6916ee8-8c42-4fc2-820d-85f86cd59ccf" Text="[RandomFirstName]" Version="V5">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/settings/account" CVScreenId="cca2effa-46be-407e-a63b-93f93a625975" ContentHash="Ej29CFU0UEaEpwaLQs6X0g" CvElementArea="413, 370, 374, 42" CvType="InputBox" DesignTimeRectangle="413, 371, 372, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-settings-account-first-name' tag='INPUT' type='text' class='sc-9d430cef-2 guMdcs' aaname='First Name*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="9976eb57-41e8-467f-a4eb-f278cad832bb" InformativeScreenshot="32f30501aa4a75b58f0c9481ad7db65e.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/f210kXH3NEScXDvPuCjDUg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Settings | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click to open Request Type dropdown" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NClick_12_OpenDropdown" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="89da3428-cfe5-422a-bfee-4e38edf8aeb9" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/support/create" CVScreenId="0c6103fb-3024-4a9a-9e77-9b8bad014f81" ContentHash="kSgA1lRf1EGHoLUrD4NvYA" CvElementArea="71, 497, 393, 43" CvType="InputBox" DesignTimeRectangle="72, 499, 393, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='_r_d_' tag='INPUT' type='' class='sc-16e01544-0 khDaYY' aaname='Request Type*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="5253f578-e03a-4d8a-ba7e-c1d6323becdd" InformativeScreenshot="9be9204c880d6fd343f8fc020adf6a81.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/xS0lpvhN4kqJXa48XBZsig" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My Requests | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="cca2effa-46be-407e-a63b-93f93a625975" CvTextArea="420, 350, 71, 13" CvTextArgument="First Name *" CvType="Text" DesignTimeRectangle="413, 349, 372, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='sc-9d430cef-4 krizYl' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='First Name*' /&gt;" Guid="90104e93-68aa-45e3-a221-0089559f583f" SearchSteps="FuzzySelector, CV" />
+                      <uix:Target CVScreenId="0c6103fb-3024-4a9a-9e77-9b8bad014f81" CvTextArea="78, 478, 87, 16" CvTextArgument="Request Type *" CvType="Text" DesignTimeRectangle="72, 477, 393, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='select-input-support-contact-create-standard-form-label' tag='LABEL' type='' class='sc-e91efaf9-0 iIanuU' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Request Type&amp;#xA;*' /&gt;" Guid="454d2fda-f9c4-4771-955e-ab4d6c589a92" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <Delay DisplayName="Wait for dropdown options to appear" Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Delay_1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </Delay>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Select &quot;Shipment follow-up&quot; from dropdown" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NClick_12_SelectOption" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="89da3428-cfe5-422a-bfee-4e38edf8aeb9" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/support/create" CVScreenId="placeholder_screen_id" ContentHash="placeholder_hash_for_shipment_follow_up" CvTextArea="78, 500, 150, 20" CvTextArgument="Shipment follow-up" CvType="Text" DesignTimeRectangle="72, 499, 393, 40" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Shipment follow-up' tag='LI' /&gt;" Guid="placeholder_guid_for_shipment_follow_up" InformativeScreenshot="placeholder_screenshot_for_shipment_follow_up.jpg" IsResponsive="True" Reference="placeholder_reference_for_shipment_follow_up" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My Requests | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Your Reference'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_13" ScopeIdentifier="89da3428-cfe5-422a-bfee-4e38edf8aeb9" Text="123456" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/support/create" CVScreenId="0c6103fb-3024-4a9a-9e77-9b8bad014f81" ContentHash="41ZeH9ps8kKvumwR6XMvxg" CvElementArea="504, 498, 395, 42" CvType="InputBox" DesignTimeRectangle="505, 499, 393, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-support-contact-standard-form-order-reference' tag='INPUT' type='text' class='sc-9d430cef-2 guMdcs' aaname='Your Reference' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f2871f0f-4d91-45ce-b122-b1f0ef555712" InformativeScreenshot="176bdc51aa108ea1dd2ffc0cb09cd362.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/2P3tpiNycUeWZVi6nnNFLg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My Requests | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="0c6103fb-3024-4a9a-9e77-9b8bad014f81" CvTextArea="511, 478, 89, 14" CvTextArgument="Your Reference" CvType="Text" DesignTimeRectangle="505, 477, 393, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='myceva-app-content' tag='LABEL' type='' class='sc-9d430cef-4 krizYl' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Your Reference' /&gt;" Guid="e5452604-944f-4a33-b266-1da12aa801fc" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                   <uix:TargetAnchorable.PointOffset>
@@ -427,12 +375,12 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Last Name*'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="f6916ee8-8c42-4fc2-820d-85f86cd59ccf" Text="[RandomLastName]" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Subject*'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_14" ScopeIdentifier="89da3428-cfe5-422a-bfee-4e38edf8aeb9" Text="Delay" Version="V5">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/settings/account" CVScreenId="cca2effa-46be-407e-a63b-93f93a625975" ContentHash="u0ftMgc9PE-0vIRHufl7Yw" CvElementArea="808, 370, 374, 42" CvType="InputBox" DesignTimeRectangle="809, 371, 372, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-settings-account-last-name' tag='INPUT' type='text' class='sc-9d430cef-2 guMdcs' aaname='Last Name*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="70486129-0f19-4a1d-a1a4-07c5b63c89ad" InformativeScreenshot="8b73515652a35c6710c454eedbde4516.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/Mf1OWlLNsEKdpS3Ur-j40g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Settings | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/support/create" CVScreenId="0c6103fb-3024-4a9a-9e77-9b8bad014f81" ContentHash="_gnjAzI_f02-b3q3iUWc8g" CvElementArea="72, 593, 824, 43" CvType="InputBox" DesignTimeRectangle="72, 595, 826, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-support-contact-standard-form-order-subject' tag='INPUT' type='text' class='sc-9d430cef-2 guMdcs' aaname='Subject*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="596b8e4d-4e81-48ae-a8e5-ea2f2658f1bd" InformativeScreenshot="e216528703fd391fd9da2583bd459362.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/bvGFOZYNc0OGVFKDuXYsww" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My Requests | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="cca2effa-46be-407e-a63b-93f93a625975" CvTextArea="816, 351, 70, 13" CvTextArgument="Last Name *" CvType="Text" DesignTimeRectangle="809, 349, 372, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='sc-9d430cef-4 krizYl' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Last Name*' /&gt;" Guid="f5fa5b20-d7a6-4b36-b94c-888730480e82" SearchSteps="FuzzySelector, CV" />
+                      <uix:Target CVScreenId="0c6103fb-3024-4a9a-9e77-9b8bad014f81" CvTextArea="78, 574, 53, 16" CvTextArgument="Subject *" CvType="Text" DesignTimeRectangle="72, 573, 826, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='myceva-app-content' tag='LABEL' class='sc-9d430cef-4 krizYl' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Subject*' /&gt;" Guid="6ce4419b-9273-44de-a2bd-e5358ff8a647" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                   <uix:TargetAnchorable.PointOffset>
@@ -457,21 +405,46 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save changes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,48" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f6916ee8-8c42-4fc2-820d-85f86cd59ccf" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/settings/account" CVScreenId="6cfea9eb-7a0b-44af-a797-a6641550cde4" ContentHash="U2tHbo2S6EqNSqwkwsENRQ" CvElementArea="1056, 646, 143, 44" CvTextArea="1079, 660, 95, 18" CvTextArgument="Save changes" CvType="Button" DesignTimeRectangle="1057, 648, 140, 40" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='button-settings-account-save' tag='BUTTON' /&gt;" Guid="e4cb39fa-86cf-4728-8124-3920a1a4a8cb" InformativeScreenshot="5719697feb029357ac4ffcd6a23aa1cf.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/7zAvqxbkUEKw-_BBT0nSoA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Settings | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Description*'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_15" ScopeIdentifier="89da3428-cfe5-422a-bfee-4e38edf8aeb9" Text="Test creating new request" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/support/create" CVScreenId="d89cae0d-d975-42d8-8cbf-4dfa24e64f51" ContentHash="iKRQkTiFBUCGTCKjMoIt3w" CvElementArea="69, 292, 830, 61" CvType="InputBox" DesignTimeRectangle="72, 295, 826, 58" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-support-contact-standard-form-description' tag='TEXTAREA' type='' class='sc-9d430cef-3 fysIRI' aaname='Description*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="2237fa1e-dc29-416c-9b2a-cb0e71d19312" InformativeScreenshot="320a57e6c276ad2514b46e12bbe90d08.jpg" IsResponsive="True" Reference="QrbtKp_Tw0WFD8uheM-Lfw/OD5C14tlN0unTyLwjw91vg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My Requests | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="d89cae0d-d975-42d8-8cbf-4dfa24e64f51" CvTextArea="79, 275, 75, 15" CvTextArgument="Description *" CvType="Text" DesignTimeRectangle="72, 273, 826, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='sc-9d430cef-4 krizYl' parentid='myceva-app-content' tag='LABEL' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Description*' /&gt;" Guid="3c67fc3f-7f0f-4d43-a2d0-4109ede40eed" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
                   <uix:TargetAnchorable.PointOffset>
                     <uix:PointOffset />
                   </uix:TargetAnchorable.PointOffset>
                 </uix:TargetAnchorable>
-              </uix:NClick.Target>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit request'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="89da3428-cfe5-422a-bfee-4e38edf8aeb9" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="myceva-tracking-app-stage.cevalogistics.com/support/create" CVScreenId="48bb1e84-2a68-4a9b-b901-58623b0e8e5f" ContentHash="G8Lr5kc1DEmHudwr5Usc0Q" CvElementArea="757, 638, 158, 43" CvTextArea="781, 651, 111, 19" CvTextArgument="Submit request" CvType="Button" DesignTimeRectangle="759, 640, 155, 40" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='button-support-create' tag='BUTTON' /&gt;" Guid="fed8b1d4-4f7b-4ea1-b85a-c5bd9464604b" InformativeScreenshot="04bf972de21a7d18fb9b1616118f496e.jpg" Reference="QrbtKp_Tw0WFD8uheM-Lfw/LW7HNbGmh02pdwf17j2t3g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My Requests | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
             </uix:NClick>
+            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Delay_2" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>

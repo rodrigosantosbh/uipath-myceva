@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Settings",
+  "Type": "Screen",
+  "Id": "IPW7KH4WOkOn_Z_kaUzemg",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/IPW7KH4WOkOn_Z_kaUzemg",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/S3VgMFeGG0maudmpkqeqsw",
+  "Created": "2026-03-09T17:28:00.663664Z",
+  "Updated": "2026-03-09T17:32:52.7936056Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

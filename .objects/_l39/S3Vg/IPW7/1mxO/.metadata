@@ -1,0 +1,13 @@
+﻿{
+  "Name": "VAT*",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "1mxO7Y26NUCb0Mnx2ijEnQ",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/1mxO7Y26NUCb0Mnx2ijEnQ",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/IPW7KH4WOkOn_Z_kaUzemg",
+  "Created": "2026-03-09T17:32:53.2351154Z",
+  "Updated": "2026-03-09T17:32:53.2351154Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Settings",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "OhA_n765pUmoBuWyDK8sZA",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/OhA_n765pUmoBuWyDK8sZA",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/ORSwrKXBZkSfjOwen0E77g",
+  "Created": "2026-03-09T17:18:48.8383194Z",
+  "Updated": "2026-03-09T17:19:14.7920599Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.1.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "City/Town*",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "sNNuGv1zckKisGyyhOr3ew",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/sNNuGv1zckKisGyyhOr3ew",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/IPW7KH4WOkOn_Z_kaUzemg",
+  "Created": "2026-03-09T17:32:53.5040728Z",
+  "Updated": "2026-03-09T17:32:53.5040728Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

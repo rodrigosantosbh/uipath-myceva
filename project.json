@@ -68,6 +68,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Quote - Create Ocean FCL Quote.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8e57b1bd-914f-4665-b299-96c5e9844997",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Support - Create New request.xaml"
       }
     ],
     "saveToCloud": false
@@ -77,6 +84,18 @@
     {
       "filePath": "Login - Success Login.xaml",
       "uniqueId": "00853533-097b-4568-9394-97854f4186d7",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Settings - Update Personal Informations.xaml",
+      "uniqueId": "d9c78755-b757-4569-93df-39dd1fc31d84",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Support - Create New request.xaml",
+      "uniqueId": "6b4f89a5-0cab-4a04-9066-d09430f85808",
       "input": [],
       "output": []
     }

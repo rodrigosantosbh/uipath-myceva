@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Request Type*",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "xS0lpvhN4kqJXa48XBZsig",
+  "Reference": "QrbtKp_Tw0WFD8uheM-Lfw/xS0lpvhN4kqJXa48XBZsig",
+  "ParentRef": "QrbtKp_Tw0WFD8uheM-Lfw/LPbYKvydekCFv3QBm6JG0g",
+  "Created": "2026-03-09T19:06:02.1759181Z",
+  "Updated": "2026-03-09T19:47:04.7102246Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

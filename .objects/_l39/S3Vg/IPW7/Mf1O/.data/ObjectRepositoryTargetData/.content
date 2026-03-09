@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="u0ftMgc9PE-0vIRHufl7Yw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myceva-tracking-app-stage.cevalogistics.com/settings/account" CVScreenId="cca2effa-46be-407e-a63b-93f93a625975" CvElementArea="808, 370, 374, 42" CvType="InputBox" DesignTimeRectangle="809, 371, 372, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-settings-account-last-name' tag='INPUT' type='text' class='sc-9d430cef-2 guMdcs' aaname='Last Name*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="70486129-0f19-4a1d-a1a4-07c5b63c89ad" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Settings | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cca2effa-46be-407e-a63b-93f93a625975" CvTextArea="816, 351, 70, 13" CvTextArgument="Last Name *" CvType="Text" DesignTimeRectangle="809, 349, 372, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='sc-9d430cef-4 krizYl' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Last Name*' /&gt;" Guid="f5fa5b20-d7a6-4b36-b94c-888730480e82" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="8b73515652a35c6710c454eedbde4516.jpg" xmlns="">0_u0g3QNpBkCNQu3SsLGP-g</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

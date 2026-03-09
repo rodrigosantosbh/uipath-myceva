@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="m6TbJZHH4kyphjnvp-8JUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myceva-tracking-app-stage.cevalogistics.com/settings/account" CVScreenId="6461551c-a1fb-47b2-808b-c488f95f7b09" CvElementArea="413, 381, 373, 43" CvType="InputBox" DesignTimeRectangle="413, 383, 372, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-settings-account-vat' tag='INPUT' type='text' class='sc-9d430cef-2 guMdcs' aaname='VAT*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="755cbfdb-685b-47ad-bcbf-2bff5f13639c" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Settings | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6461551c-a1fb-47b2-808b-c488f95f7b09" CvTextArea="419, 362, 33, 13" CvTextArgument="VAT *" CvType="Text" DesignTimeRectangle="413, 361, 372, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='myceva-app-content' tag='LABEL' class='sc-9d430cef-4 krizYl' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='VAT*' /&gt;" Guid="570e448a-5b3e-452e-af9f-c410d7726076" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="7a62b6a5043613551c6b8ba77757721a.jpg" xmlns="">0OUIe3VpXDUqm0o4YZoLyAQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VGJJsLA0MkWMMwzw5o_Wfw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myceva-tracking-app-stage.cevalogistics.com/settings/account" CVScreenId="d1e1a4b1-34cd-4489-be55-5de3ee28809b" CvElementArea="413, 608, 372, 42" CvType="InputBox" DesignTimeRectangle="413, 609, 372, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='_r_l_' tag='INPUT' type='' class='sc-16e01544-0 khDaYY' aaname='Country*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="dd931ece-84e6-4fde-a430-d004d4347207" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Settings | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d1e1a4b1-34cd-4489-be55-5de3ee28809b" CvTextArea="420, 589, 54, 15" CvTextArgument="Country *" CvType="Text" DesignTimeRectangle="413, 587, 372, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='select-input-settings-account-country-label' tag='LABEL' type='' class='sc-e91efaf9-0 iIanuU' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Country&amp;#xA;*' /&gt;" Guid="cdb65871-276b-4b15-a6cf-4e1dd823efe8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="e95d0a8ece3dee1d3c58006da79d9421.jpg" xmlns="">0bhlGEiblP0aeSRZPywZGNA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

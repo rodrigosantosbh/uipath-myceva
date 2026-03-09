@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ej29CFU0UEaEpwaLQs6X0g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myceva-tracking-app-stage.cevalogistics.com/settings/account" CVScreenId="cca2effa-46be-407e-a63b-93f93a625975" CvElementArea="413, 370, 374, 42" CvType="InputBox" DesignTimeRectangle="413, 371, 372, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-settings-account-first-name' tag='INPUT' type='text' class='sc-9d430cef-2 guMdcs' aaname='First Name*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="9976eb57-41e8-467f-a4eb-f278cad832bb" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Settings | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cca2effa-46be-407e-a63b-93f93a625975" CvTextArea="420, 350, 71, 13" CvTextArgument="First Name *" CvType="Text" DesignTimeRectangle="413, 349, 372, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='sc-9d430cef-4 krizYl' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='First Name*' /&gt;" Guid="90104e93-68aa-45e3-a221-0089559f583f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="32f30501aa4a75b58f0c9481ad7db65e.jpg" xmlns="">096_KjeF4Zkyrngd6CK0OrQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

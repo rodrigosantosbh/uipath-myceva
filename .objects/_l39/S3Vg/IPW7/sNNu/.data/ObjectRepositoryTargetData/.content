@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EpExKj3FUEy8scdEeGD0RA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myceva-tracking-app-stage.cevalogistics.com/settings/account" CVScreenId="29873194-0eee-409f-8715-e5f0257f99ca" CvElementArea="412, 533, 247, 43" CvType="InputBox" DesignTimeRectangle="413, 534, 244, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-settings-account-city' tag='INPUT' type='text' class='sc-9d430cef-2 guMdcs' aaname='City/Town*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="390fb6de-2b99-4230-8a5c-e39b615173fa" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Settings | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="29873194-0eee-409f-8715-e5f0257f99ca" CvTextArea="420, 513, 65, 16" CvTextArgument="City/Town *" CvType="Text" DesignTimeRectangle="413, 512, 244, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='myceva-app-content' tag='LABEL' class='sc-9d430cef-4 krizYl' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='City/Town*' /&gt;" Guid="8684f5e9-7b73-4085-ac41-005d87f919cf" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="da0a4dd78e6fbd8b0a93e4a4643e8656.jpg" xmlns="">0vcIS8ut_JEyKTJjyA7Edlg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

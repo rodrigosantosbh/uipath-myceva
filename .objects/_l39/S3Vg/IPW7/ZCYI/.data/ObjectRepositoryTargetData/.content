@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XK12UNG6PEqRoDiptk-mVA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myceva-tracking-app-stage.cevalogistics.com/settings/account" CVScreenId="6cfea9eb-7a0b-44af-a797-a6641550cde4" CvElementArea="928, 647, 99, 43" CvTextArea="954, 659, 47, 15" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="930, 648, 95, 40" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='button-settings-account-cancel' tag='BUTTON' /&gt;" Guid="962e1665-2a03-42e0-ab0d-f541c68fa4dd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Settings | myCEVA Logistics' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="c350d93533ceffe03862e6b056982771.jpg" xmlns="">0Fkt90kb6Qk2WjMt862RJJQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

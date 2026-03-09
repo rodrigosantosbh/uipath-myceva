@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="41ZeH9ps8kKvumwR6XMvxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myceva-tracking-app-stage.cevalogistics.com/support/create" CVScreenId="0c6103fb-3024-4a9a-9e77-9b8bad014f81" CvElementArea="504, 498, 395, 42" CvType="InputBox" DesignTimeRectangle="505, 499, 393, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-support-contact-standard-form-order-reference' tag='INPUT' type='text' class='sc-9d430cef-2 guMdcs' aaname='Your Reference' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f2871f0f-4d91-45ce-b122-b1f0ef555712" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='My Requests | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0c6103fb-3024-4a9a-9e77-9b8bad014f81" CvTextArea="511, 478, 89, 14" CvTextArgument="Your Reference" CvType="Text" DesignTimeRectangle="505, 477, 393, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='myceva-app-content' tag='LABEL' type='' class='sc-9d430cef-4 krizYl' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Your Reference' /&gt;" Guid="e5452604-944f-4a33-b266-1da12aa801fc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="176bdc51aa108ea1dd2ffc0cb09cd362.jpg" xmlns="">0HRf3VZCBwU2AYKR1jKGszA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

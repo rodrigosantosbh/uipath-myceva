@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GKu1-jRVZUqBn8Vt74yXxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myceva-tracking-app-stage.cevalogistics.com/settings/account" CVScreenId="cca2effa-46be-407e-a63b-93f93a625975" CvElementArea="413, 578, 373, 42" CvType="InputBox" DesignTimeRectangle="413, 579, 372, 40" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-settings-account-company-name' tag='INPUT' type='text' class='sc-9d430cef-2 guMdcs' aaname='Company name*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="cdf69d43-b3a6-4bb2-bb97-47e42638807f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Settings | myCEVA Logistics' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cca2effa-46be-407e-a63b-93f93a625975" CvTextArea="420, 559, 99, 15" CvTextArgument="Company name *" CvType="Text" DesignTimeRectangle="413, 557, 372, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='sc-9d430cef-4 krizYl' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Company name*' /&gt;" Guid="eeb70f8a-56cc-4a5b-acc9-ffe7466a4019" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="543d68f151f4a2f9c607f190fa197f5f.jpg" xmlns="">0da2X5j-n6UO1SzYpR0Jatw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
